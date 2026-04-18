@@ -234,13 +234,11 @@ El adapter detecta por estructura si el JSON es schema antiguo (en español) y l
 - 143 tests en 11 archivos (0 errores TS, 0 lint).
 
 ## Autores
-**Ing. Víctor Claudio Vladimir Cortés Arévalo**, Esp., Mg.
+**Ing. Víctor Claudio Vladimir Cortés Arévalo**, Esp., Mg.**
 *Instructor G20 — Área de Teleinformática — Centro de Electricidad, Electrónica y Telecomunicaciones.*
 
-**Ing. Mauricio Alexander Vargas Rodríguez**, MSc, MBA Esp. PM
+**Ing. Mauricio Alexander Vargas Rodríguez**, MSc, MBA Esp. PM.**
 *Instructor G14 — Centro de Electricidad, Electrónica y Telecomunicaciones.*
-
-
 
 SENA, Regional Distrito Capital — Colombia.
 

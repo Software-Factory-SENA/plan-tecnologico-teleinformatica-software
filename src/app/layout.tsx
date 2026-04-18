@@ -16,21 +16,23 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Radar Tecnológico — Telecomunicaciones CEET | SENA",
+  title: "Radar Tecnológico — Teleinformática CEET | SENA",
   description:
-    "Radar interactivo de vigilancia científico-tecnológica del área de telecomunicaciones del Centro de Electricidad, Electrónica y Telecomunicaciones (CEET) — SENA 2626-2036.",
+    "Radar interactivo de vigilancia científico-tecnológica del área de software de teleinformática del Centro de Electricidad, Electrónica y Telecomunicaciones (CEET) — SENA 2626-2036.",
   keywords: [
     "radar tecnológico",
-    "telecomunicaciones",
+    "teleinformática",
     "vigilancia tecnológica",
-    "5G",
-    "6G",
-    "IA",
+    "prospectiva tecnológica",
+    "IA y aprendizaje automático",
+    "dato como infraestructura estratégica",
+    "convergencia ciberfísica y aumento humano",
+    "confianza digital, soberanía y gobernanza",
     "SENA",
     "CEET",
     "GICS",
   ],
-  authors: [{ name: "Mauricio Alexander Vargas Rodríguez" }],
+  authors: [{ name: "Mauricio Alexander Vargas Rodríguez, Víctor C. Vladimir Cortés A." }],
   icons: {
     icon: "/favicon/favicon.ico",
   },
