@@ -1,0 +1,1424 @@
+{
+  "$schema": "https://radar.ceet.co/schemas/radar-ignore.v1.json",
+  "meta": {
+    "description": "Tecnologías descartadas del Radar Tecnológico CEET 2626-2036 por simplificación. Máximo 2 tecnologías por Área Tecnológica fueron seleccionadas; estas quedan excluidas del radar visual pero documentadas aquí para referencia.",
+    "generatedFrom": "telecomunicaciones.json",
+    "selectionCriteria": "Se conservaron las 2 tecnologías por Área de mayor importancia prospectiva y representatividad: mayor TRL + capacidad de abarcar a las demás tecnologías del grupo.",
+    "totalDiscarded": 37,
+    "totalKept": 22
+  },
+  "discardedByArea": {
+    "A1-1": [
+      {
+        "id": "T03",
+        "code": "L03",
+        "name": "Robots Polifuncionales (Polyfunctional Robots)",
+        "sector": "D1",
+        "area": "A1-1",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "Robots adaptables con IA para múltiples tareas en entornos no estructurados. Gartner 2626: 8/10 trabajadores usarán robots inteligentes a diario para 2030. Regulatoria: ISO estándares de seguridad colaborativa. Impacto: automatización flexible en manufactura y logística.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Robots",
+          "Polifuncionales",
+          "Polyfunctional",
+          "Agéntica",
+          "Autónoma"
+        ]
+      },
+      {
+        "id": "T04",
+        "code": "L04",
+        "name": "Agentes de Ciberseguridad (AI SecOps)",
+        "sector": "D1",
+        "area": "A1-1",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "IA proactiva en detección y respuesta autónoma de amenazas. Para 2030, 50% del gasto en seguridad será preventivo (Gartner 2026). Ref. normativa: NIST SP 1800-35. Impacto: transición de modelo reactivo a predictivo en operaciones de seguridad.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Agentes",
+          "Ciberseguridad",
+          "SecOps",
+          "Agéntica",
+          "Autónoma"
+        ]
+      },
+      {
+        "id": "T05",
+        "code": "L05",
+        "name": "AI Agent Benchmarking (Evaluación de Agentes AI)",
+        "sector": "D1",
+        "area": "A1-1",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "IEEE 2026 insta a definir estándares y mejores prácticas para benchmarking de agentes AI. Métricas de autonomía, fiabilidad, seguridad y alineamiento. Identity resilience como tendencia complementaria. Gartner: 40% de apps empresariales integrarán agentes AI task-specific para fin de 2026. Impacto: confianza medible en sistemas agénticos.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Agent",
+          "Benchmarking",
+          "Evaluación",
+          "Agéntica",
+          "Autónoma"
+        ]
+      }
+    ],
+    "A1-2": [
+      {
+        "id": "T07",
+        "code": "L07",
+        "name": "Modelos de Lenguaje de Dominio Específico (Domain-Specific LMs)",
+        "sector": "D1",
+        "area": "A1-2",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Mayor precisión y cumplimiento normativo para casos de uso específicos por industria. Gartner 2026 tendencia clave. Aplicaciones: salud, finanzas, legal, manufactura. Impacto: modelos especializados desplazan a generalistas en sectores regulados.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Modelos",
+          "Lenguaje",
+          "Dominio",
+          "Fundacionales"
+        ]
+      },
+      {
+        "id": "T08",
+        "code": "L08",
+        "name": "Small Language Models (SLMs)",
+        "sector": "D1",
+        "area": "A1-2",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Modelos compactos y eficientes para edge computing y dispositivos con recursos limitados. IEEE 2626: los SLMs nivelan el campo de juego de la IA. Impacto: democratización de la IA empresarial en entornos de bajo cómputo.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Small",
+          "Language",
+          "Models",
+          "Modelos",
+          "Fundacionales"
+        ]
+      },
+      {
+        "id": "T09",
+        "code": "L09",
+        "name": "Federated Learning (Aprendizaje Federado)",
+        "sector": "D1",
+        "area": "A1-2",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Entrenamiento de modelos ML distribuidos sin centralizar datos sensibles. Preserva privacidad cumpliendo GDPR/HIPAA. Aplicaciones líderes en salud, finanzas y telecomunicaciones. Google, Apple y NVIDIA con frameworks activos. Impacto: IA privada y colaborativa entre organizaciones.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Federated",
+          "Learning",
+          "Aprendizaje",
+          "Automático"
+        ]
+      },
+      {
+        "id": "T11",
+        "code": "L11",
+        "name": "Datos Sintéticos (Synthetic Data)",
+        "sector": "D1",
+        "area": "A1-2",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Sustitutos sintéticos para entrenamiento de ML cuando datos reales son limitados o sesgados. Consideraciones GDPR. Aplicaciones en vehículos autónomos, salud y finanzas. Impacto: reducción de costos de datos etiquetados.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Datos",
+          "Sintéticos",
+          "Synthetic",
+          "Generación",
+          "Gestión"
+        ]
+      }
+    ],
+    "A1-3": [
+      {
+        "id": "T14",
+        "code": "L14",
+        "name": "Bases de Datos Vectoriales (Vector Databases)",
+        "sector": "D1",
+        "area": "A1-3",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Infraestructura esencial para RAG y búsqueda semántica. Líderes: Pinecone, Weaviate, Qdrant, Milvus, Chroma. Soportan ANN search, embeddings y hybrid search. Impacto: backbone de las aplicaciones AI modernas.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Bases",
+          "Datos",
+          "Vectoriales",
+          "Arquitecturas",
+          "Empresarial"
+        ]
+      }
+    ],
+    "A1-4": [
+      {
+        "id": "T16",
+        "code": "L16",
+        "name": "DataOps (Data Operations)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Automatización, colaboración e integración continua en flujos de datos. Equipos con DataOps logran 10x de productividad vs. enfoques tradicionales (Gartner). Orquestación con Apache Airflow, Dagster, Prefect. Impacto: entrega de datos confiable y ágil.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "DataOps",
+          "Data",
+          "Operations",
+          "MLOps"
+        ]
+      },
+      {
+        "id": "T17",
+        "code": "L17",
+        "name": "Data Observability (Observabilidad de Datos)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Gartner: 50% de organizaciones con arquitecturas distribuidas adoptarán plataformas de observabilidad en 2026 (vs. <20% en 2024). OpenTelemetry para monitoreo vendor-neutral. Herramientas: Monte Carlo, Great Expectations. Impacto: calidad y fiabilidad de datos end-to-end.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Data",
+          "Observability",
+          "Observabilidad",
+          "Gobernanza"
+        ]
+      },
+      {
+        "id": "T18",
+        "code": "L18",
+        "name": "DataGovOps (Governance-as-Code)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Gobernanza como código: compliance, audit trails y lineage automatizados mediante procesos integrados en pipelines. CycloneDX para SBOM de datos. Impacto: gobernanza escalable sin overhead manual.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "DataGovOps",
+          "Governance",
+          "Code",
+          "Observabilidad",
+          "Gobernanza"
+        ]
+      },
+      {
+        "id": "T19",
+        "code": "L19",
+        "name": "Data Lakehouse Architecture (Arquitectura Lakehouse)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Unificación de data warehouse y data lake. Separación de almacenamiento y cómputo. Mayoría de grandes empresas adoptará Lakehouse para 2026. Líderes: Databricks, Snowflake, Apache Iceberg, Delta Lake. Impacto: acceso unificado para BI, ML e ingeniería de datos.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Data",
+          "Lakehouse",
+          "Architecture",
+          "Arquitecturas",
+          "Datos"
+        ]
+      },
+      {
+        "id": "T20",
+        "code": "L20",
+        "name": "Procesamiento en Tiempo Real (Stream Processing)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Mercado de analítica en tiempo real crecerá de $14.5B (2023) a >$35B (2032). Arquitecturas event-driven. Plataformas: Apache Kafka, Apache Flink, AWS Kinesis, Google Pub/Sub. Unificación streaming+batch como paradigma dominante. Impacto: decisiones en tiempo real.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Procesamiento",
+          "Tiempo",
+          "Real",
+          "Arquitecturas",
+          "Datos"
+        ]
+      },
+      {
+        "id": "T21",
+        "code": "L21",
+        "name": "AutoML e IA-Assisted Data Engineering (Ingeniería de Datos Asistida por IA)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "AutoML automatiza entrenamiento, testing y despliegue de modelos. Agentes AI para gestión de pipelines: 80% de nuevas bases de datos en Databricks lanzadas por agentes AI (2626). Generación de código de pipelines por lenguaje natural. Impacto: democratización de ingeniería de datos.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "AutoML",
+          "Assisted",
+          "Data",
+          "Arquitecturas",
+          "Datos"
+        ]
+      },
+      {
+        "id": "T23",
+        "code": "L23",
+        "name": "Conversational Analytics / NL-to-Data (Analítica por Lenguaje Natural)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Interfaces que permiten consultar, explorar y visualizar datos mediante lenguaje natural (NL-to-SQL, NL-to-Chart). Microsoft Copilot en Power BI, Tableau AI, Google Gemini en Looker. LLMs eliminan la barrera técnica entre usuarios de negocio y datos. Para 2036: la noción de 'dashboard' como artefacto estático será obsoleta, reemplazada por diálogos continuos humano-dato. Impacto: democratización radical del acceso a datos; 80%+ de consumo analítico será conversacional.",
+        "impact": "Muy Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Conversational",
+          "Analytics",
+          "Data",
+          "Analítica",
+          "Aumentada"
+        ]
+      },
+      {
+        "id": "T24",
+        "code": "L24",
+        "name": "Decision Intelligence (Inteligencia Decisional Autónoma)",
+        "sector": "D1",
+        "area": "A1-4",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "Convergencia de analítica avanzada + IA causal + agentes autónomos para sistemas que toman decisiones operacionales y estratégicas con mínima supervisión humana. Gartner identifica Decision Intelligence como disciplina emergente clave. Integra grafos causales, simulación, optimización y reinforcement learning. Para 2030–2036: sistemas decisionales autónomos gestionarán cadenas de suministro, pricing dinámico, asignación de recursos y respuesta a incidentes. Impacto a 2036: redefinición del rol gerencial — de tomador de decisiones a supervisor de sistemas decisionales AI.",
+        "impact": "Alto",
+        "horizon": "Largo (>5 años)",
+        "tags": [
+          "Decision",
+          "Intelligence",
+          "Inteligencia",
+          "Analítica",
+          "Aumentada"
+        ]
+      }
+    ],
+    "A1-5": [
+      {
+        "id": "T26",
+        "code": "L26",
+        "name": "Platform Engineering (Internal Developer Platforms)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "IDPs proveen self-service estandarizado para desarrolladores. Gartner: ganancias de eficiencia del 30–50%. Dashboard único para herramientas, credenciales y templates. Impacto: reducción de fricción y gobernanza unificada.",
+        "impact": "Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Platform",
+          "Engineering",
+          "Internal",
+          "Automatización",
+          "Autónoma"
+        ]
+      },
+      {
+        "id": "T27",
+        "code": "L27",
+        "name": "AI-Powered Test Automation (Generación Autónoma de Tests)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "72.8% de testers priorizan testing con IA (TestGuild 2026). 81% de equipos de desarrollo usan IA en sus flujos de testing. Algoritmos que leen user stories y generan test cases automáticamente. Impacto: reducción del 40–60% en tiempo de creación de pruebas.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Powered",
+          "Test",
+          "Automation",
+          "Testing",
+          "Software"
+        ]
+      },
+      {
+        "id": "T28",
+        "code": "L28",
+        "name": "Self-Healing Test Automation (Tests Auto-Reparables)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Scripts que se auto-actualizan cuando cambian elementos de UI o estructura de código. Para 2026, diagnóstico inteligente y tests auto-reparables serán habilitadores clave de releases más estables (Parasoft). Herramientas: Applitools, Mabl, Perfecto. Impacto: reducción drástica del mantenimiento de suites de pruebas.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Self",
+          "Healing",
+          "Test",
+          "Testing",
+          "Software"
+        ]
+      },
+      {
+        "id": "T29",
+        "code": "L29",
+        "name": "AI-Based Defect Prediction (Predicción de Defectos con IA)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "IA analiza logs, patrones e históricos para detectar problemas antes de que escalen. Priorización inteligente de test cases basada en riesgo y cambios de código. Impacto: detección temprana reduce costos de corrección post-producción en 60–80%.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Based",
+          "Defect",
+          "Prediction",
+          "Testing",
+          "Software"
+        ]
+      },
+      {
+        "id": "T30",
+        "code": "L30",
+        "name": "QA para Sistemas de IA (AI Quality Assurance)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "World Quality Report 2626–26: GenAI es skill #1 para quality engineers (63%). Evaluación conductual (no binaria) de outputs de IA. Benchmarks: HELM Safety, TruthfulQA. Metamorphic testing y evaluación humana. Impacto: nuevo paradigma de calidad para era AI.",
+        "impact": "Muy Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Sistemas",
+          "Quality",
+          "Assurance",
+          "Testing",
+          "Software"
+        ]
+      },
+      {
+        "id": "T31",
+        "code": "L31",
+        "name": "FinOps (Cloud Financial Operations)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Gestión y optimización de costos cloud. Crítico con el crecimiento exponencial del gasto en infraestructura AI ($337B en 2626, $749B para 2028 según IDC). FinOps Foundation como estándar. Impacto: sostenibilidad financiera de la transformación digital.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "FinOps",
+          "Cloud",
+          "Financial",
+          "Despliegue",
+          "Mantenimiento"
+        ]
+      },
+      {
+        "id": "T32",
+        "code": "L32",
+        "name": "Observabilidad de Software (AIOps) (AI for IT Operations)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Monitoreo inteligente de aplicaciones en producción con detección predictiva de anomalías. OpenTelemetry como estándar vendor-neutral. Gartner: 50% de organizaciones adoptarán observabilidad sofisticada en 2026. Impacto: de resolución reactiva a prevención proactiva.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Observabilidad",
+          "Software",
+          "AIOps",
+          "Despliegue",
+          "Mantenimiento"
+        ]
+      },
+      {
+        "id": "T33",
+        "code": "L33",
+        "name": "Serverless / FaaS (Functions-as-a-Service)",
+        "sector": "D1",
+        "area": "A1-5",
+        "ring": "adopt",
+        "trl": 9,
+        "desc": "Arquitecturas sin servidor para despliegue ágil y escalable. Auto-scaling automático. AWS Lambda, Azure Functions, Google Cloud Functions. Reducción de overhead operacional. Impacto: foco en código de negocio sin gestión de infraestructura.",
+        "impact": "Medio",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Serverless",
+          "FaaS",
+          "Functions",
+          "Despliegue",
+          "Mantenimiento"
+        ]
+      }
+    ],
+    "A2-1": [
+      {
+        "id": "T36",
+        "code": "L36",
+        "name": "Realidad Mixta (Mixed Reality)",
+        "sector": "D2",
+        "area": "A2-1",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Wearables IoT para MR en entornos industriales. Adopción en educación técnica y capacitación industrial. Líderes: Microsoft HoloLens, Meta Quest Enterprise. Impacto: mejora en colaboración remota y entrenamiento técnico.",
+        "impact": "Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Realidad",
+          "Mixta",
+          "Mixed",
+          "Computación",
+          "Inmersiva"
+        ]
+      }
+    ],
+    "A2-2": [
+      {
+        "id": "T40",
+        "code": "L40",
+        "name": "Robots Humanoides (Tesla Optimus, Figure, Boston Dynamics)",
+        "sector": "D2",
+        "area": "A2-2",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "IEEE 2026: 77% creen que los robots humanoides serán compañeros de trabajo comunes. 37% de empresas consideran implementarlos. Gartner 2626: 8/10 trabajadores usarán robots inteligentes a diario para 2030. Impacto: transformación estructural de la fuerza laboral.",
+        "impact": "Muy Alto",
+        "horizon": "Largo (>5 años)",
+        "tags": [
+          "Robots",
+          "Humanoides",
+          "Tesla",
+          "Robótica",
+          "Propósito"
+        ]
+      },
+      {
+        "id": "T41",
+        "code": "L41",
+        "name": "Drones-as-a-Service (DaaS)",
+        "sector": "D2",
+        "area": "A2-2",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "IEEE 2626 Top Prediction. Redefinirá logística, agricultura de precisión y respuesta a desastres. Avances en SWaP, batería y eVTOL. Servicios bajo demanda sin inversión en flota. Impacto: democratización de capacidades aéreas autónomas.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Drones",
+          "Service",
+          "DaaS",
+          "Robótica",
+          "Propósito"
+        ]
+      },
+      {
+        "id": "T42",
+        "code": "L42",
+        "name": "Mejora Neurológica (Brain-Computer Interfaces)",
+        "sector": "D2",
+        "area": "A2-2",
+        "ring": "trial",
+        "trl": 5,
+        "desc": "Interfaces bidireccionales cerebro-computador. Gartner 2626 Top 10 Trend #10. Aplicaciones médicas liderando desarrollo. Regulatoria: ética en neurotecnología, privacidad de datos neuronales. Impacto: asistencia médica avanzada y comunicación alternativa.",
+        "impact": "Bajo",
+        "horizon": "Largo (>5 años)",
+        "tags": [
+          "Mejora",
+          "Neurológica",
+          "Brain",
+          "Aumento",
+          "Cognitivo"
+        ]
+      }
+    ],
+    "A3-1": [
+      {
+        "id": "T45",
+        "code": "L45",
+        "name": "Agilidad Criptográfica (Crypto-Agility)",
+        "sector": "D3",
+        "area": "A3-1",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Capacidad de cambiar algoritmos criptográficos rápidamente. CBOM en CycloneDX v1.6. IBM Quantum Safe Explorer para descubrimiento de dependencias. Impacto: preparación organizacional ante amenazas cuánticas.",
+        "impact": "Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Agilidad",
+          "Criptográfica",
+          "Crypto",
+          "Computación",
+          "Cuántica"
+        ]
+      }
+    ],
+    "A3-2": [
+      {
+        "id": "T46",
+        "code": "L46",
+        "name": "Inteligencia Ambiental Invisible (Ambient Intelligence)",
+        "sector": "D3",
+        "area": "A3-2",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "Tecnología integrada discretamente en entornos físicos. Gartner 2626 Top 10 Trend #5. Sensores de bajo costo con tracking en tiempo real. Regulatoria: privacidad y consentimiento. Impacto: experiencias naturales e intuitivas en espacios inteligentes.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Inteligencia",
+          "Ambiental",
+          "Invisible"
+        ]
+      },
+      {
+        "id": "T49",
+        "code": "L49",
+        "name": "Computación Confidencial (Confidential Computing)",
+        "sector": "D3",
+        "area": "A3-2",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "Protección de datos en uso (TEEs), no solo en reposo o tránsito. Gartner 2026 tendencia clave para trust en AI. Esencial para AI sobre datos sensibles en sectores regulados. Impacto: AI segura en salud, finanzas y gobierno.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Computación",
+          "Confidencial",
+          "Confidential",
+          "Eficiencia",
+          "Sostenibilidad"
+        ]
+      },
+      {
+        "id": "T50",
+        "code": "L50",
+        "name": "AI Supercomputing Platforms",
+        "sector": "D3",
+        "area": "A3-2",
+        "ring": "adopt",
+        "trl": 8,
+        "desc": "Gartner 2026 Top Strategic Trend – The Architect. Infraestructura especializada para entrenamiento de modelos masivos y analítica avanzada. Requiere gobernanza y control de costos cuidadosos. Convergencia Quantum-HPC-AI identificada por IEEE 2026 como área de alto riesgo/recompensa. Impacto: habilitador de modelos fundacionales y analítica a escala.",
+        "impact": "Muy Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Supercomputing",
+          "Platforms",
+          "Plataformas",
+          "Supercomputación"
+        ]
+      }
+    ],
+    "A4-1": [
+      {
+        "id": "T52",
+        "code": "L52",
+        "name": "Ciberseguridad Preventiva (Preemptive Cybersecurity)",
+        "sector": "D4",
+        "area": "A4-1",
+        "ring": "adopt",
+        "trl": 7,
+        "desc": "De defensa reactiva a protección proactiva basada en AI. Gartner 2026: 50% del gasto en seguridad será preventivo para 2030. Técnicas: AI-powered SecOps, denial and deception programática. Impacto: 'predicción es protección'.",
+        "impact": "Muy Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Ciberseguridad",
+          "Preventiva",
+          "Preemptive",
+          "Seguridad",
+          "Adaptativa"
+        ]
+      },
+      {
+        "id": "T53",
+        "code": "L53",
+        "name": "Procedencia Digital (Digital Provenance)",
+        "sector": "D4",
+        "area": "A4-1",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "Verificación del origen, propiedad e integridad de software, datos y contenido AI. Herramientas: SBOMs, attestation databases, digital watermarking. Impacto: confianza digital verificable en cadenas de suministro de software.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Procedencia",
+          "Digital",
+          "Seguridad",
+          "Adaptativa"
+        ]
+      },
+      {
+        "id": "T55",
+        "code": "L55",
+        "name": "Seguridad contra Desinformación (Disinformation Security)",
+        "sector": "D4",
+        "area": "A4-1",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "Gartner 2626 Top 10 Trend #3. Detección de deepfakes y verificación de autenticidad. 50% de empresas usarán herramientas para 2028 vs. 5% hoy. Impacto: mitigación de riesgos reputacionales.",
+        "impact": "Muy Alto",
+        "horizon": "Corto (1-2 años)",
+        "tags": [
+          "Seguridad",
+          "contra",
+          "Desinformación",
+          "Gobernanza",
+          "Datos"
+        ]
+      },
+      {
+        "id": "T56",
+        "code": "L56",
+        "name": "Plataformas de Seguridad AI (AI Security Platforms)",
+        "sector": "D4",
+        "area": "A4-1",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "Visibilidad y control centralizado sobre aplicaciones AI de terceros. Gartner 2026 destaca necesidad de gobernanza ante proliferación de AI shadow. Impacto: gestión de riesgos AI en entornos enterprise.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Plataformas",
+          "Seguridad",
+          "Security",
+          "Gobernanza",
+          "Datos"
+        ]
+      }
+    ],
+    "A4-2": [
+      {
+        "id": "T58",
+        "code": "L58",
+        "name": "Geopatriación (Geopatriation)",
+        "sector": "D4",
+        "area": "A4-2",
+        "ring": "trial",
+        "trl": 6,
+        "desc": "Migración de workloads a nubes soberanas/regionales por riesgos geopolíticos. Gartner 2026: >75% de empresas EU/ME geopatriarán para 2030. Regulatoria: data residency, soberanía de datos. Impacto: compliance geopolítico obligatorio.",
+        "impact": "Alto",
+        "horizon": "Medio (2-5 años)",
+        "tags": [
+          "Geopatriación",
+          "Geopatriation",
+          "Gobernanza",
+          "Datos"
+        ]
+      }
+    ]
+  },
+  "discarded": [
+    {
+      "id": "T03",
+      "code": "L03",
+      "name": "Robots Polifuncionales (Polyfunctional Robots)",
+      "sector": "D1",
+      "area": "A1-1",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "Robots adaptables con IA para múltiples tareas en entornos no estructurados. Gartner 2626: 8/10 trabajadores usarán robots inteligentes a diario para 2030. Regulatoria: ISO estándares de seguridad colaborativa. Impacto: automatización flexible en manufactura y logística.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Robots",
+        "Polifuncionales",
+        "Polyfunctional",
+        "Agéntica",
+        "Autónoma"
+      ]
+    },
+    {
+      "id": "T04",
+      "code": "L04",
+      "name": "Agentes de Ciberseguridad (AI SecOps)",
+      "sector": "D1",
+      "area": "A1-1",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "IA proactiva en detección y respuesta autónoma de amenazas. Para 2030, 50% del gasto en seguridad será preventivo (Gartner 2026). Ref. normativa: NIST SP 1800-35. Impacto: transición de modelo reactivo a predictivo en operaciones de seguridad.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Agentes",
+        "Ciberseguridad",
+        "SecOps",
+        "Agéntica",
+        "Autónoma"
+      ]
+    },
+    {
+      "id": "T05",
+      "code": "L05",
+      "name": "AI Agent Benchmarking (Evaluación de Agentes AI)",
+      "sector": "D1",
+      "area": "A1-1",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "IEEE 2026 insta a definir estándares y mejores prácticas para benchmarking de agentes AI. Métricas de autonomía, fiabilidad, seguridad y alineamiento. Identity resilience como tendencia complementaria. Gartner: 40% de apps empresariales integrarán agentes AI task-specific para fin de 2026. Impacto: confianza medible en sistemas agénticos.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Agent",
+        "Benchmarking",
+        "Evaluación",
+        "Agéntica",
+        "Autónoma"
+      ]
+    },
+    {
+      "id": "T07",
+      "code": "L07",
+      "name": "Modelos de Lenguaje de Dominio Específico (Domain-Specific LMs)",
+      "sector": "D1",
+      "area": "A1-2",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Mayor precisión y cumplimiento normativo para casos de uso específicos por industria. Gartner 2026 tendencia clave. Aplicaciones: salud, finanzas, legal, manufactura. Impacto: modelos especializados desplazan a generalistas en sectores regulados.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Modelos",
+        "Lenguaje",
+        "Dominio",
+        "Fundacionales"
+      ]
+    },
+    {
+      "id": "T08",
+      "code": "L08",
+      "name": "Small Language Models (SLMs)",
+      "sector": "D1",
+      "area": "A1-2",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Modelos compactos y eficientes para edge computing y dispositivos con recursos limitados. IEEE 2626: los SLMs nivelan el campo de juego de la IA. Impacto: democratización de la IA empresarial en entornos de bajo cómputo.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Small",
+        "Language",
+        "Models",
+        "Modelos",
+        "Fundacionales"
+      ]
+    },
+    {
+      "id": "T09",
+      "code": "L09",
+      "name": "Federated Learning (Aprendizaje Federado)",
+      "sector": "D1",
+      "area": "A1-2",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Entrenamiento de modelos ML distribuidos sin centralizar datos sensibles. Preserva privacidad cumpliendo GDPR/HIPAA. Aplicaciones líderes en salud, finanzas y telecomunicaciones. Google, Apple y NVIDIA con frameworks activos. Impacto: IA privada y colaborativa entre organizaciones.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Federated",
+        "Learning",
+        "Aprendizaje",
+        "Automático"
+      ]
+    },
+    {
+      "id": "T11",
+      "code": "L11",
+      "name": "Datos Sintéticos (Synthetic Data)",
+      "sector": "D1",
+      "area": "A1-2",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Sustitutos sintéticos para entrenamiento de ML cuando datos reales son limitados o sesgados. Consideraciones GDPR. Aplicaciones en vehículos autónomos, salud y finanzas. Impacto: reducción de costos de datos etiquetados.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Datos",
+        "Sintéticos",
+        "Synthetic",
+        "Generación",
+        "Gestión"
+      ]
+    },
+    {
+      "id": "T14",
+      "code": "L14",
+      "name": "Bases de Datos Vectoriales (Vector Databases)",
+      "sector": "D1",
+      "area": "A1-3",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Infraestructura esencial para RAG y búsqueda semántica. Líderes: Pinecone, Weaviate, Qdrant, Milvus, Chroma. Soportan ANN search, embeddings y hybrid search. Impacto: backbone de las aplicaciones AI modernas.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Bases",
+        "Datos",
+        "Vectoriales",
+        "Arquitecturas",
+        "Empresarial"
+      ]
+    },
+    {
+      "id": "T16",
+      "code": "L16",
+      "name": "DataOps (Data Operations)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Automatización, colaboración e integración continua en flujos de datos. Equipos con DataOps logran 10x de productividad vs. enfoques tradicionales (Gartner). Orquestación con Apache Airflow, Dagster, Prefect. Impacto: entrega de datos confiable y ágil.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "DataOps",
+        "Data",
+        "Operations",
+        "MLOps"
+      ]
+    },
+    {
+      "id": "T17",
+      "code": "L17",
+      "name": "Data Observability (Observabilidad de Datos)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Gartner: 50% de organizaciones con arquitecturas distribuidas adoptarán plataformas de observabilidad en 2026 (vs. <20% en 2024). OpenTelemetry para monitoreo vendor-neutral. Herramientas: Monte Carlo, Great Expectations. Impacto: calidad y fiabilidad de datos end-to-end.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Data",
+        "Observability",
+        "Observabilidad",
+        "Gobernanza"
+      ]
+    },
+    {
+      "id": "T18",
+      "code": "L18",
+      "name": "DataGovOps (Governance-as-Code)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Gobernanza como código: compliance, audit trails y lineage automatizados mediante procesos integrados en pipelines. CycloneDX para SBOM de datos. Impacto: gobernanza escalable sin overhead manual.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "DataGovOps",
+        "Governance",
+        "Code",
+        "Observabilidad",
+        "Gobernanza"
+      ]
+    },
+    {
+      "id": "T19",
+      "code": "L19",
+      "name": "Data Lakehouse Architecture (Arquitectura Lakehouse)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Unificación de data warehouse y data lake. Separación de almacenamiento y cómputo. Mayoría de grandes empresas adoptará Lakehouse para 2026. Líderes: Databricks, Snowflake, Apache Iceberg, Delta Lake. Impacto: acceso unificado para BI, ML e ingeniería de datos.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Data",
+        "Lakehouse",
+        "Architecture",
+        "Arquitecturas",
+        "Datos"
+      ]
+    },
+    {
+      "id": "T20",
+      "code": "L20",
+      "name": "Procesamiento en Tiempo Real (Stream Processing)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Mercado de analítica en tiempo real crecerá de $14.5B (2023) a >$35B (2032). Arquitecturas event-driven. Plataformas: Apache Kafka, Apache Flink, AWS Kinesis, Google Pub/Sub. Unificación streaming+batch como paradigma dominante. Impacto: decisiones en tiempo real.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Procesamiento",
+        "Tiempo",
+        "Real",
+        "Arquitecturas",
+        "Datos"
+      ]
+    },
+    {
+      "id": "T21",
+      "code": "L21",
+      "name": "AutoML e IA-Assisted Data Engineering (Ingeniería de Datos Asistida por IA)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "AutoML automatiza entrenamiento, testing y despliegue de modelos. Agentes AI para gestión de pipelines: 80% de nuevas bases de datos en Databricks lanzadas por agentes AI (2626). Generación de código de pipelines por lenguaje natural. Impacto: democratización de ingeniería de datos.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "AutoML",
+        "Assisted",
+        "Data",
+        "Arquitecturas",
+        "Datos"
+      ]
+    },
+    {
+      "id": "T23",
+      "code": "L23",
+      "name": "Conversational Analytics / NL-to-Data (Analítica por Lenguaje Natural)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Interfaces que permiten consultar, explorar y visualizar datos mediante lenguaje natural (NL-to-SQL, NL-to-Chart). Microsoft Copilot en Power BI, Tableau AI, Google Gemini en Looker. LLMs eliminan la barrera técnica entre usuarios de negocio y datos. Para 2036: la noción de 'dashboard' como artefacto estático será obsoleta, reemplazada por diálogos continuos humano-dato. Impacto: democratización radical del acceso a datos; 80%+ de consumo analítico será conversacional.",
+      "impact": "Muy Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Conversational",
+        "Analytics",
+        "Data",
+        "Analítica",
+        "Aumentada"
+      ]
+    },
+    {
+      "id": "T24",
+      "code": "L24",
+      "name": "Decision Intelligence (Inteligencia Decisional Autónoma)",
+      "sector": "D1",
+      "area": "A1-4",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "Convergencia de analítica avanzada + IA causal + agentes autónomos para sistemas que toman decisiones operacionales y estratégicas con mínima supervisión humana. Gartner identifica Decision Intelligence como disciplina emergente clave. Integra grafos causales, simulación, optimización y reinforcement learning. Para 2030–2036: sistemas decisionales autónomos gestionarán cadenas de suministro, pricing dinámico, asignación de recursos y respuesta a incidentes. Impacto a 2036: redefinición del rol gerencial — de tomador de decisiones a supervisor de sistemas decisionales AI.",
+      "impact": "Alto",
+      "horizon": "Largo (>5 años)",
+      "tags": [
+        "Decision",
+        "Intelligence",
+        "Inteligencia",
+        "Analítica",
+        "Aumentada"
+      ]
+    },
+    {
+      "id": "T26",
+      "code": "L26",
+      "name": "Platform Engineering (Internal Developer Platforms)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "IDPs proveen self-service estandarizado para desarrolladores. Gartner: ganancias de eficiencia del 30–50%. Dashboard único para herramientas, credenciales y templates. Impacto: reducción de fricción y gobernanza unificada.",
+      "impact": "Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Platform",
+        "Engineering",
+        "Internal",
+        "Automatización",
+        "Autónoma"
+      ]
+    },
+    {
+      "id": "T27",
+      "code": "L27",
+      "name": "AI-Powered Test Automation (Generación Autónoma de Tests)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "72.8% de testers priorizan testing con IA (TestGuild 2026). 81% de equipos de desarrollo usan IA en sus flujos de testing. Algoritmos que leen user stories y generan test cases automáticamente. Impacto: reducción del 40–60% en tiempo de creación de pruebas.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Powered",
+        "Test",
+        "Automation",
+        "Testing",
+        "Software"
+      ]
+    },
+    {
+      "id": "T28",
+      "code": "L28",
+      "name": "Self-Healing Test Automation (Tests Auto-Reparables)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Scripts que se auto-actualizan cuando cambian elementos de UI o estructura de código. Para 2026, diagnóstico inteligente y tests auto-reparables serán habilitadores clave de releases más estables (Parasoft). Herramientas: Applitools, Mabl, Perfecto. Impacto: reducción drástica del mantenimiento de suites de pruebas.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Self",
+        "Healing",
+        "Test",
+        "Testing",
+        "Software"
+      ]
+    },
+    {
+      "id": "T29",
+      "code": "L29",
+      "name": "AI-Based Defect Prediction (Predicción de Defectos con IA)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "IA analiza logs, patrones e históricos para detectar problemas antes de que escalen. Priorización inteligente de test cases basada en riesgo y cambios de código. Impacto: detección temprana reduce costos de corrección post-producción en 60–80%.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Based",
+        "Defect",
+        "Prediction",
+        "Testing",
+        "Software"
+      ]
+    },
+    {
+      "id": "T30",
+      "code": "L30",
+      "name": "QA para Sistemas de IA (AI Quality Assurance)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "World Quality Report 2626–26: GenAI es skill #1 para quality engineers (63%). Evaluación conductual (no binaria) de outputs de IA. Benchmarks: HELM Safety, TruthfulQA. Metamorphic testing y evaluación humana. Impacto: nuevo paradigma de calidad para era AI.",
+      "impact": "Muy Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Sistemas",
+        "Quality",
+        "Assurance",
+        "Testing",
+        "Software"
+      ]
+    },
+    {
+      "id": "T31",
+      "code": "L31",
+      "name": "FinOps (Cloud Financial Operations)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Gestión y optimización de costos cloud. Crítico con el crecimiento exponencial del gasto en infraestructura AI ($337B en 2626, $749B para 2028 según IDC). FinOps Foundation como estándar. Impacto: sostenibilidad financiera de la transformación digital.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "FinOps",
+        "Cloud",
+        "Financial",
+        "Despliegue",
+        "Mantenimiento"
+      ]
+    },
+    {
+      "id": "T32",
+      "code": "L32",
+      "name": "Observabilidad de Software (AIOps) (AI for IT Operations)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Monitoreo inteligente de aplicaciones en producción con detección predictiva de anomalías. OpenTelemetry como estándar vendor-neutral. Gartner: 50% de organizaciones adoptarán observabilidad sofisticada en 2026. Impacto: de resolución reactiva a prevención proactiva.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Observabilidad",
+        "Software",
+        "AIOps",
+        "Despliegue",
+        "Mantenimiento"
+      ]
+    },
+    {
+      "id": "T33",
+      "code": "L33",
+      "name": "Serverless / FaaS (Functions-as-a-Service)",
+      "sector": "D1",
+      "area": "A1-5",
+      "ring": "adopt",
+      "trl": 9,
+      "desc": "Arquitecturas sin servidor para despliegue ágil y escalable. Auto-scaling automático. AWS Lambda, Azure Functions, Google Cloud Functions. Reducción de overhead operacional. Impacto: foco en código de negocio sin gestión de infraestructura.",
+      "impact": "Medio",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Serverless",
+        "FaaS",
+        "Functions",
+        "Despliegue",
+        "Mantenimiento"
+      ]
+    },
+    {
+      "id": "T36",
+      "code": "L36",
+      "name": "Realidad Mixta (Mixed Reality)",
+      "sector": "D2",
+      "area": "A2-1",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Wearables IoT para MR en entornos industriales. Adopción en educación técnica y capacitación industrial. Líderes: Microsoft HoloLens, Meta Quest Enterprise. Impacto: mejora en colaboración remota y entrenamiento técnico.",
+      "impact": "Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Realidad",
+        "Mixta",
+        "Mixed",
+        "Computación",
+        "Inmersiva"
+      ]
+    },
+    {
+      "id": "T40",
+      "code": "L40",
+      "name": "Robots Humanoides (Tesla Optimus, Figure, Boston Dynamics)",
+      "sector": "D2",
+      "area": "A2-2",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "IEEE 2026: 77% creen que los robots humanoides serán compañeros de trabajo comunes. 37% de empresas consideran implementarlos. Gartner 2626: 8/10 trabajadores usarán robots inteligentes a diario para 2030. Impacto: transformación estructural de la fuerza laboral.",
+      "impact": "Muy Alto",
+      "horizon": "Largo (>5 años)",
+      "tags": [
+        "Robots",
+        "Humanoides",
+        "Tesla",
+        "Robótica",
+        "Propósito"
+      ]
+    },
+    {
+      "id": "T41",
+      "code": "L41",
+      "name": "Drones-as-a-Service (DaaS)",
+      "sector": "D2",
+      "area": "A2-2",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "IEEE 2626 Top Prediction. Redefinirá logística, agricultura de precisión y respuesta a desastres. Avances en SWaP, batería y eVTOL. Servicios bajo demanda sin inversión en flota. Impacto: democratización de capacidades aéreas autónomas.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Drones",
+        "Service",
+        "DaaS",
+        "Robótica",
+        "Propósito"
+      ]
+    },
+    {
+      "id": "T42",
+      "code": "L42",
+      "name": "Mejora Neurológica (Brain-Computer Interfaces)",
+      "sector": "D2",
+      "area": "A2-2",
+      "ring": "trial",
+      "trl": 5,
+      "desc": "Interfaces bidireccionales cerebro-computador. Gartner 2626 Top 10 Trend #10. Aplicaciones médicas liderando desarrollo. Regulatoria: ética en neurotecnología, privacidad de datos neuronales. Impacto: asistencia médica avanzada y comunicación alternativa.",
+      "impact": "Bajo",
+      "horizon": "Largo (>5 años)",
+      "tags": [
+        "Mejora",
+        "Neurológica",
+        "Brain",
+        "Aumento",
+        "Cognitivo"
+      ]
+    },
+    {
+      "id": "T45",
+      "code": "L45",
+      "name": "Agilidad Criptográfica (Crypto-Agility)",
+      "sector": "D3",
+      "area": "A3-1",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Capacidad de cambiar algoritmos criptográficos rápidamente. CBOM en CycloneDX v1.6. IBM Quantum Safe Explorer para descubrimiento de dependencias. Impacto: preparación organizacional ante amenazas cuánticas.",
+      "impact": "Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Agilidad",
+        "Criptográfica",
+        "Crypto",
+        "Computación",
+        "Cuántica"
+      ]
+    },
+    {
+      "id": "T46",
+      "code": "L46",
+      "name": "Inteligencia Ambiental Invisible (Ambient Intelligence)",
+      "sector": "D3",
+      "area": "A3-2",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "Tecnología integrada discretamente en entornos físicos. Gartner 2626 Top 10 Trend #5. Sensores de bajo costo con tracking en tiempo real. Regulatoria: privacidad y consentimiento. Impacto: experiencias naturales e intuitivas en espacios inteligentes.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Inteligencia",
+        "Ambiental",
+        "Invisible"
+      ]
+    },
+    {
+      "id": "T49",
+      "code": "L49",
+      "name": "Computación Confidencial (Confidential Computing)",
+      "sector": "D3",
+      "area": "A3-2",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "Protección de datos en uso (TEEs), no solo en reposo o tránsito. Gartner 2026 tendencia clave para trust en AI. Esencial para AI sobre datos sensibles en sectores regulados. Impacto: AI segura en salud, finanzas y gobierno.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Computación",
+        "Confidencial",
+        "Confidential",
+        "Eficiencia",
+        "Sostenibilidad"
+      ]
+    },
+    {
+      "id": "T50",
+      "code": "L50",
+      "name": "AI Supercomputing Platforms",
+      "sector": "D3",
+      "area": "A3-2",
+      "ring": "adopt",
+      "trl": 8,
+      "desc": "Gartner 2026 Top Strategic Trend – The Architect. Infraestructura especializada para entrenamiento de modelos masivos y analítica avanzada. Requiere gobernanza y control de costos cuidadosos. Convergencia Quantum-HPC-AI identificada por IEEE 2026 como área de alto riesgo/recompensa. Impacto: habilitador de modelos fundacionales y analítica a escala.",
+      "impact": "Muy Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Supercomputing",
+        "Platforms",
+        "Plataformas",
+        "Supercomputación"
+      ]
+    },
+    {
+      "id": "T52",
+      "code": "L52",
+      "name": "Ciberseguridad Preventiva (Preemptive Cybersecurity)",
+      "sector": "D4",
+      "area": "A4-1",
+      "ring": "adopt",
+      "trl": 7,
+      "desc": "De defensa reactiva a protección proactiva basada en AI. Gartner 2026: 50% del gasto en seguridad será preventivo para 2030. Técnicas: AI-powered SecOps, denial and deception programática. Impacto: 'predicción es protección'.",
+      "impact": "Muy Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Ciberseguridad",
+        "Preventiva",
+        "Preemptive",
+        "Seguridad",
+        "Adaptativa"
+      ]
+    },
+    {
+      "id": "T53",
+      "code": "L53",
+      "name": "Procedencia Digital (Digital Provenance)",
+      "sector": "D4",
+      "area": "A4-1",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "Verificación del origen, propiedad e integridad de software, datos y contenido AI. Herramientas: SBOMs, attestation databases, digital watermarking. Impacto: confianza digital verificable en cadenas de suministro de software.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Procedencia",
+        "Digital",
+        "Seguridad",
+        "Adaptativa"
+      ]
+    },
+    {
+      "id": "T55",
+      "code": "L55",
+      "name": "Seguridad contra Desinformación (Disinformation Security)",
+      "sector": "D4",
+      "area": "A4-1",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "Gartner 2626 Top 10 Trend #3. Detección de deepfakes y verificación de autenticidad. 50% de empresas usarán herramientas para 2028 vs. 5% hoy. Impacto: mitigación de riesgos reputacionales.",
+      "impact": "Muy Alto",
+      "horizon": "Corto (1-2 años)",
+      "tags": [
+        "Seguridad",
+        "contra",
+        "Desinformación",
+        "Gobernanza",
+        "Datos"
+      ]
+    },
+    {
+      "id": "T56",
+      "code": "L56",
+      "name": "Plataformas de Seguridad AI (AI Security Platforms)",
+      "sector": "D4",
+      "area": "A4-1",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "Visibilidad y control centralizado sobre aplicaciones AI de terceros. Gartner 2026 destaca necesidad de gobernanza ante proliferación de AI shadow. Impacto: gestión de riesgos AI en entornos enterprise.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Plataformas",
+        "Seguridad",
+        "Security",
+        "Gobernanza",
+        "Datos"
+      ]
+    },
+    {
+      "id": "T58",
+      "code": "L58",
+      "name": "Geopatriación (Geopatriation)",
+      "sector": "D4",
+      "area": "A4-2",
+      "ring": "trial",
+      "trl": 6,
+      "desc": "Migración de workloads a nubes soberanas/regionales por riesgos geopolíticos. Gartner 2026: >75% de empresas EU/ME geopatriarán para 2030. Regulatoria: data residency, soberanía de datos. Impacto: compliance geopolítico obligatorio.",
+      "impact": "Alto",
+      "horizon": "Medio (2-5 años)",
+      "tags": [
+        "Geopatriación",
+        "Geopatriation",
+        "Gobernanza",
+        "Datos"
+      ]
+    }
+  ]
+}

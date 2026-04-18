@@ -1,0 +1,16 @@
+{
+  "name": "Radar Tecnológico Telecomunicaciones CEET",
+  "short_name": "Radar Tech",
+  "description": "Radar de vigilancia tecnológica del área de telecomunicaciones — CEET SENA 2026-2036",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#39a900",
+  "icons": [
+    {
+      "src": "/logo-sena.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

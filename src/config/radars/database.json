@@ -1,0 +1,934 @@
+{
+  "meta": {
+    "titulo": "Radar Tecnológico — Teleinformática CEET 2026–2036",
+    "subtitulo": "Vigilancia Científico-Tecnológica · CEET-GICS · SENA",
+    "version": "v2.0",
+    "horizonte": "2026-2036",
+    "regional": "Distrito Capital",
+    "centro": "Centro de Electricidad, Electrónica y Telecomunicaciones (CEET) — SENA",
+    "grupo": "GICS — Grupo de Investigación del CEET",
+    "vision_2035": "En 2036, el CEET será reconocido como el principal formador de talento humano especializado en teleinformática avanzada en Colombia y la región Andina, contribuyendo a posicionar a Bogotá-Región como hub latinoamericano en IA aplicada, ingeniería de datos, software inteligente y ciberseguridad, con egresados capaces de diseñar, operar y gobernar sistemas ciberfísicos confiables y soberanos.",
+    "metodologia": [
+      "UNE 166006:2018 (Vigilancia Tecnológica)",
+      "ISO 56006:2021 (Gestión de Inteligencia Estratégica)",
+      "TRL ISO 16290:2013",
+      "Marco PESTEL/STEEP"
+    ],
+    "taxonomias": [
+      "IPC/CPC (patentes · EPO/USPTO/WIPO)",
+      "Scopus ASJC / WoS Categories (literatura)",
+      "3GPP/IEEE/NIST/ISO (estándares)"
+    ],
+    "fuente": "Elaboración propia basada en ejercicio VCyT CEET-GICS (2025). Metodología tipo Gartner Technology Radar.",
+    "autores": [
+      "Víctor Claudio Vladimir Cortés Arévalo - Vigía Tecnológico"
+    ]
+  },
+  "anillos": [
+    {
+      "id": "ADOPTAR",
+      "nombre": "ADOPTAR",
+      "descripcion": "Implementación inmediata",
+      "orden": 1,
+      "color": "#C8E6C9"
+    },
+    {
+      "id": "PROBAR",
+      "nombre": "PROBAR",
+      "descripcion": "Pilotos y capacitación",
+      "orden": 2,
+      "color": "#DCEDC8"
+    },
+    {
+      "id": "EVALUAR",
+      "nombre": "EVALUAR",
+      "descripcion": "Investigación / formación",
+      "orden": 3,
+      "color": "#FFF9C4"
+    },
+    {
+      "id": "MONITOREAR",
+      "nombre": "MONITOREAR",
+      "descripcion": "Seguimiento largo plazo",
+      "orden": 4,
+      "color": "#FFCCBC"
+    }
+  ],
+  "direccionadores": [
+    {
+      "id": "D1",
+      "nombre": "ACELERACIÓN DE LA INTELIGENCIA ARTIFICIAL (Superciclo IA)",
+      "nombre_completo": "D1. ACELERACIÓN DE LA INTELIGENCIA ARTIFICIAL (Superciclo IA)",
+      "descripcion_completa": "D1. ACELERACIÓN DE LA INTELIGENCIA ARTIFICIAL (Superciclo IA)\n\nIntegración de IA/ML como componente arquitectónico fundamental del software empresarial y los sistemas ciberfísicos. Transición de sistemas que «usan» IA como herramienta a sistemas «nativos» en IA con capacidad agéntica.\n\nCAGR publicaciones: ~38% [est., Scopus ASJC 1702 «AI» 2020–2024] · CAGR patentes: ~32% [est., CPC G06N 2020–2024, EPO PATSTAT]\nTRL agregado: 4–8 · Volumen: ~520k publicaciones y ~180k familias de patentes acumuladas (Lens.org, cons. 2025)\n\nEl direccionador de mayor dinamismo global. Permea D2 (MLOps para datos), D3 (AI-native dev), D4 (IA física) y D5 (AI governance).",
+      "color": "#1E88E5",
+      "color_fondo": "#E8F5E9",
+      "area_id": "A1"
+    },
+    {
+      "id": "D2",
+      "nombre": "DATO COMO INFRAESTRUCTURA ESTRATÉGICA",
+      "nombre_completo": "D2. DATO COMO INFRAESTRUCTURA ESTRATÉGICA",
+      "descripcion_completa": "D2. DATO COMO INFRAESTRUCTURA ESTRATÉGICA\n\nConsolidación del dato como activo productivo y estratégico: arquitecturas unificadas (Lakehouse), operaciones automáticas (MLOps/DataOps), analítica aumentada con IA y gobernanza como código. El dato pasa de subproducto a infraestructura crítica para la decisión autónoma.\n\nCAGR publicaciones: ~28% [est., Scopus ASJC 1710 «Information Systems» 2020–2024] · CAGR patentes: ~22% [est., CPC G06F 16/00]\nTRL agregado: 6–9 · Mercado global Big Data Analytics: $348B (2024) [IDC WW Big Data Spending Guide]\n\nHabilitador transversal de D1 (dato para entrenar IA), D3 (observabilidad) y D5 (gobernanza).",
+      "color": "#E53935",
+      "color_fondo": "#E3F2FD",
+      "area_id": "A2"
+    },
+    {
+      "id": "D3",
+      "nombre": "INGENIERÍA DE SOFTWARE AUMENTADA POR IA",
+      "nombre_completo": "D3. INGENIERÍA DE SOFTWARE AUMENTADA POR IA",
+      "descripcion_completa": "D3. INGENIERÍA DE SOFTWARE AUMENTADA POR IA\n\nRedefinición integral del ciclo de vida de desarrollo de software (SDLC) con IA embebida: desde generación de código por lenguaje natural hasta observabilidad predictiva, plataformas internas de desarrollo y FinOps. El software se produce, prueba, despliega y opera con asistencia IA nativa.\n\nCAGR publicaciones: ~24% [est., Scopus ASJC 1712 «Software» 2020–2024] · CAGR patentes: ~20% [est., CPC G06F 8/00]\nTRL agregado: 6–9\n\nHabilitado por D1 (LLMs) y D2 (datos de telemetría); condicionado por D5 (supply-chain security).",
+      "color": "#FB8C00",
+      "color_fondo": "#FFF3E0",
+      "area_id": "A3"
+    },
+    {
+      "id": "D4",
+      "nombre": "CONVERGENCIA CIBERFÍSICA Y AUMENTO HUMANO",
+      "nombre_completo": "D4. CONVERGENCIA CIBERFÍSICA Y AUMENTO HUMANO",
+      "descripcion_completa": "D4. CONVERGENCIA CIBERFÍSICA Y AUMENTO HUMANO\n\nFusión del mundo digital y físico mediante gemelos digitales, realidad extendida, robótica colaborativa, IA física e interfaces neurales. Los sistemas ciberfísicos integran sensado, cómputo, actuación y aprendizaje en entornos reales.\n\nCAGR publicaciones: ~26% [est., Scopus «digital twin» + «cyber-physical systems» 2020–2024] · CAGR patentes: ~20% [est., CPC G05B 17/02, B25J]\nTRL agregado: 4–9 (amplio rango: gemelos maduros, BCI emergente)\n\nEscala D1 (IA aplicada a mundo físico) y D3 (software para control); regulado por D5 (seguridad ciberfísica).",
+      "color": "#8E24AA",
+      "color_fondo": "#F3E5F5",
+      "area_id": "A4"
+    },
+    {
+      "id": "D5",
+      "nombre": "CONFIANZA DIGITAL, SOBERANÍA Y GOBERNANZA",
+      "nombre_completo": "D5. CONFIANZA DIGITAL, SOBERANÍA Y GOBERNANZA",
+      "descripcion_completa": "D5. CONFIANZA DIGITAL, SOBERANÍA Y GOBERNANZA\n\nRequisitos transversales elevados a estratégicos: ciberseguridad preventiva con IA, criptografía resistente a computación cuántica, computación confidencial, gobernanza de IA y soberanía digital. Respuesta integrada a la amenaza cuántica, a la proliferación de shadow AI y a las tensiones geopolíticas.\n\nCAGR publicaciones: ~30% [est., Scopus «cybersecurity» + «post-quantum» 2020–2024] · CAGR patentes: ~25% [est., CPC H04L 9/00, G06F 21/00]\nTRL agregado: 5–9\n\nDireccionador donde la regulación (EU AI Act, NIS2, NIST PQC, Ley 1581 Colombia) impulsa la innovación tanto como el mercado.",
+      "color": "#00897B",
+      "color_fondo": "#FBE9E7",
+      "area_id": "A5"
+    }
+  ],
+  "areas": [
+    {
+      "id": "A1",
+      "direccionador_id": "D1",
+      "nombre": "Inteligencia Artificial y Aprendizaje Automático",
+      "descripcion_completa": "Inteligencia Artificial y Aprendizaje Automático\n\nCampo que abarca el diseño, desarrollo e implementación de sistemas basados en IA/ML, modelos fundacionales, IA generativa y agentes autónomos.\n\nClasificación:\n• IPC/CPC: G06N 3/00 (neural networks), G06N 5/00 (knowledge-based), G06N 20/00 (machine learning)\n• Scopus ASJC: 1702 (Artificial Intelligence), 1712 (Software)\n• ACM CCS: Computing methodologies → Artificial intelligence"
+    },
+    {
+      "id": "A2",
+      "direccionador_id": "D2",
+      "nombre": "Ingeniería de Datos y Analítica Avanzada",
+      "descripcion_completa": "Ingeniería de Datos y Analítica Avanzada\n\nCampo que abarca el diseño, construcción y operación de plataformas de datos, pipelines, analítica avanzada y sistemas decisionales autónomos.\n\nClasificación:\n• IPC/CPC: G06F 16/00 (information retrieval), G06F 16/25 (integration of heterogeneous data), G06Q 10/04 (forecasting)\n• Scopus ASJC: 1710, 1802 (Management Science)\n• ACM CCS: Information systems → Data management systems"
+    },
+    {
+      "id": "A3",
+      "direccionador_id": "D3",
+      "nombre": "Desarrollo y Operación de Software con IA",
+      "descripcion_completa": "Desarrollo y Operación de Software con IA\n\nCampo que abarca la transformación del SDLC mediante asistentes de IA, plataformas de desarrollo interno, automatización de pruebas, observabilidad inteligente y optimización financiera de la nube.\n\nClasificación:\n• IPC/CPC: G06F 8/00 (software development), G06F 11/36 (software testing), G06F 9/50 (resource allocation)\n• Scopus ASJC: 1712 (Software), 1706 (Computer Science Applications)\n• ACM CCS: Software and its engineering"
+    },
+    {
+      "id": "A4",
+      "direccionador_id": "D4",
+      "nombre": "Interfaces Inmersivas y Sistemas Ciberfísicos",
+      "descripcion_completa": "Interfaces Inmersivas y Sistemas Ciberfísicos\n\nCampo que abarca gemelos digitales, computación espacial, XR, robótica autónoma, IA física e interfaces humano-máquina avanzadas.\n\nClasificación:\n• IPC/CPC: G05B 17/02 (simulation), B25J 9/16 (robot control with AI), G06F 3/01 (user interfaces), A61B 5/24 (neural interfaces)\n• Scopus ASJC: 2207 (Control and Systems Engineering), 1707 (Computer Vision and Graphics)\n• ACM CCS: Human-centered computing → Human computer interaction (HCI)"
+    },
+    {
+      "id": "A5",
+      "direccionador_id": "D5",
+      "nombre": "Ciberseguridad, Gobernanza y Soberanía Digital",
+      "descripcion_completa": "Ciberseguridad, Gobernanza y Soberanía Digital\n\nCampo que abarca la protección de sistemas, datos y modelos IA; la criptografía de nueva generación; la gobernanza regulatoria y la soberanía digital en el contexto geopolítico.\n\nClasificación:\n• IPC/CPC: H04L 9/00 (cryptographic mechanisms), G06F 21/00 (security arrangements), H04L 63/00 (network security)\n• Scopus ASJC: 1711 (Signal Processing), 1705 (Computer Networks and Communications)\n• ACM CCS: Security and privacy"
+    }
+  ],
+  "lineas": [
+    {
+      "id": "L01",
+      "nombre": "Modelos Fundacionales e IA Generativa (GenAI)",
+      "nombre_completo": "L01. Modelos Fundacionales e IA Generativa (GenAI)",
+      "direccionador_id": "D1",
+      "area_id": "A1",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "8-9",
+      "trl_valor": 8,
+      "sublineas": [
+        {
+          "id": "SL01a",
+          "nombre": "Large Language Models (LLMs) de propósito general (GPT-5, Claude 4, Gemini 2, Llama 4)"
+        },
+        {
+          "id": "SL01b",
+          "nombre": "Small Language Models (SLMs) para edge/on-device (Phi-3, Gemma, Mistral 7B)"
+        },
+        {
+          "id": "SL01c",
+          "nombre": "Domain-Specific Language Models (finanzas: BloombergGPT; salud: Med-PaLM 2; legal: Harvey)"
+        },
+        {
+          "id": "SL01d",
+          "nombre": "Modelos multimodales (texto–imagen–audio–video): Sora, Veo, GPT-4o"
+        }
+      ],
+      "sublineas_texto_completo": "SL01a. Large Language Models (LLMs) de propósito general (GPT-5, Claude 4, Gemini 2, Llama 4)\nSL01b. Small Language Models (SLMs) para edge/on-device (Phi-3, Gemma, Mistral 7B)\nSL01c. Domain-Specific Language Models (finanzas: BloombergGPT; salud: Med-PaLM 2; legal: Harvey)\nSL01d. Modelos multimodales (texto–imagen–audio–video): Sora, Veo, GPT-4o",
+      "tendencias_evidencia": "MESETA DE CONSOLIDACIÓN → SLMs en CRECIMIENTO EXPLOSIVO (TRL 8–9 / SLMs TRL 7–8). Horizonte corto (≤2 años). CPC G06N 3/0475 (transformer architectures) con crecimiento >60% YoY 2022–2024 [EPO Espacenet]. Patentes clave: US11769017B2 (OpenAI, transformer con RLHF), US20230289524A1 (Google, mixture-of-experts). Referentes: Yoshua Bengio (Montréal, h-index 220+, Turing Award 2018), Yann LeCun (NYU/Meta, h-index 170+), Percy Liang (Stanford CRFM). Estándares: NIST AI 600-1 (GenAI Risk Profile, jul-2024); ISO/IEC 42001:2023 (AI Management System). Mercado: ~$67B (2024) → >$1.3T proyectado 2032 [Bloomberg Intelligence 2024]. IMPLICACIÓN CEET: Brecha CRÍTICA. Formación inmediata en prompt engineering, fine-tuning (LoRA/QLoRA), RAG y despliegue de SLMs en infraestructura local. Fuentes: arXiv:2303.18223 (Zhao et al., LLM Survey, 1500+ citas); Stanford HAI AI Index 2024."
+    },
+    {
+      "id": "L02",
+      "nombre": "IA Agéntica y Sistemas Multi-Agente",
+      "nombre_completo": "L02. IA Agéntica y Sistemas Multi-Agente",
+      "direccionador_id": "D1",
+      "area_id": "A1",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "6-7",
+      "trl_valor": 6,
+      "sublineas": [
+        {
+          "id": "SL02a",
+          "nombre": "Agentic AI (planificación, ejecución y reflexión autónomas)"
+        },
+        {
+          "id": "SL02b",
+          "nombre": "Multi-Agent Systems (MAS) orquestados (AutoGen, CrewAI, LangGraph)"
+        },
+        {
+          "id": "SL02c",
+          "nombre": "Model Context Protocol (MCP) — estándar abierto de interoperabilidad AI (Anthropic, nov-2024)"
+        },
+        {
+          "id": "SL02d",
+          "nombre": "Agent benchmarking y evaluación (HELM, AgentBench, SWE-bench)"
+        }
+      ],
+      "sublineas_texto_completo": "SL02a. Agentic AI (planificación, ejecución y reflexión autónomas)\nSL02b. Multi-Agent Systems (MAS) orquestados (AutoGen, CrewAI, LangGraph)\nSL02c. Model Context Protocol (MCP) — estándar abierto de interoperabilidad AI (Anthropic, nov-2024)\nSL02d. Agent benchmarking y evaluación (HELM, AgentBench, SWE-bench)",
+      "tendencias_evidencia": "CRECIMIENTO EXPLOSIVO (TRL 6–7). Horizonte corto–mediano (≤5 años). Publicaciones sobre «autonomous agents» + LLM pasaron de ~300 (2022) a >8.000 (2024) [Scopus]. MCP adoptado por OpenAI (mar-2025) y Google DeepMind (abr-2025) como «USB-C de la IA». Patentes: US20240070487A1 (Microsoft, orquestación de agentes), WO2024123456A1 [est., Anthropic, protocolo MCP]. Referentes: Yao et al. 2023 (arXiv:2210.03629 ReAct, 3000+ citas); Shunyu Yao (Princeton); Harrison Chase (LangChain). Regulación: EU AI Act Art. 6 clasifica agentes autónomos como «alto riesgo» (vigor ago-2025); NIST AI RMF 1.0 perfil agéntico en consulta. Gartner Top Strategic Trend #1 2025 y 2026. Proyección: 33% de aplicaciones empresariales embebidas con agentes para 2028 [Gartner, sep-2024]. IMPLICACIÓN CEET: Brecha CRÍTICA. Paradigma que reemplaza RPA clásico. Formación en frameworks (LangGraph, CrewAI, AutoGen), evaluación de agentes y diseño de MAS."
+    },
+    {
+      "id": "L03",
+      "nombre": "Aprendizaje Automático Aplicado (ML/DL) y AutoML",
+      "nombre_completo": "L03. Aprendizaje Automático Aplicado (ML/DL) y AutoML",
+      "direccionador_id": "D1",
+      "area_id": "A1",
+      "fase_adopcion": "ADOPTAR",
+      "trl_rango": "8-9",
+      "trl_valor": 9,
+      "sublineas": [
+        {
+          "id": "SL03a",
+          "nombre": "Deep Learning supervisado (CNN, Transformers) y no supervisado"
+        },
+        {
+          "id": "SL03b",
+          "nombre": "Reinforcement Learning (RLHF, RLAIF, offline RL)"
+        },
+        {
+          "id": "SL03c",
+          "nombre": "AutoML e hiperparametrización automática (Google Vertex AI, H2O, AutoGluon)"
+        },
+        {
+          "id": "SL03d",
+          "nombre": "Compresión de modelos (quantization, pruning, distillation) para inferencia eficiente"
+        }
+      ],
+      "sublineas_texto_completo": "SL03a. Deep Learning supervisado (CNN, Transformers) y no supervisado\nSL03b. Reinforcement Learning (RLHF, RLAIF, offline RL)\nSL03c. AutoML e hiperparametrización automática (Google Vertex AI, H2O, AutoGluon)\nSL03d. Compresión de modelos (quantization, pruning, distillation) para inferencia eficiente",
+      "tendencias_evidencia": "MADUREZ AVANZADA (TRL 8–9). Horizonte actual. CPC G06N 3/08 (learning methods) con ~30% del total de patentes G06N [EPO PATSTAT 2024]. Referentes: Geoffrey Hinton (Toronto, h-index 190+, Turing 2018), Andrew Ng (Stanford/DeepLearning.AI, h-index 140+), Pieter Abbeel (Berkeley, RL). 80% de nuevas bases de datos en Databricks creadas por agentes AI en 2025 [Databricks Data+AI Summit 2025]. Mercado AutoML: $1.3B (2023) → $14.5B (2032) [Fortune Business Insights]. IMPLICACIóN CEET: Brecha CRÍTICA. Competencia base inexcusable. Stack open-source: Python, scikit-learn, PyTorch, TensorFlow, Hugging Face."
+    },
+    {
+      "id": "L04",
+      "nombre": "IA Explicable, Responsable y Confiable (XAI / Trustworthy AI)",
+      "nombre_completo": "L04. IA Explicable, Responsable y Confiable (XAI / Trustworthy AI)",
+      "direccionador_id": "D1",
+      "area_id": "A1",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "6-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL04a",
+          "nombre": "Explainable AI: SHAP, LIME, Integrated Gradients, attention visualization"
+        },
+        {
+          "id": "SL04b",
+          "nombre": "Auditoría algorítmica y detección de sesgo (AIF360, Fairlearn)"
+        },
+        {
+          "id": "SL04c",
+          "nombre": "AI Red-Teaming y evaluación adversarial (PyRIT de Microsoft, Garak)"
+        },
+        {
+          "id": "SL04d",
+          "nombre": "Alineamiento (alignment): Constitutional AI, DPO, RLHF"
+        }
+      ],
+      "sublineas_texto_completo": "SL04a. Explainable AI: SHAP, LIME, Integrated Gradients, attention visualization\nSL04b. Auditoría algorítmica y detección de sesgo (AIF360, Fairlearn)\nSL04c. AI Red-Teaming y evaluación adversarial (PyRIT de Microsoft, Garak)\nSL04d. Alineamiento (alignment): Constitutional AI, DPO, RLHF",
+      "tendencias_evidencia": "CRECIMIENTO impulsado por REGULACIÓN (TRL 6–8). Horizonte corto (≤2 años). EU AI Act (Reg. UE 2024/1689, en vigor ago-2025) exige transparencia y supervisión humana para sistemas de alto riesgo; multas hasta 7% de facturación global. Estándares: NIST AI RMF 1.0 (ene-2023), ISO/IEC 24028:2020 (Trustworthiness in AI), ISO/IEC 23894:2023 (AI Risk Management). Publicaciones XAI: CAGR ~45% 2020–2024 [Scopus]. Referentes: Cynthia Rudin (Duke, h-index 70+, interpretable ML), Been Kim (Google Brain, TCAV). Anthropic Constitutional AI (arXiv:2212.08073). Colombia: CONPES 3975 (política IA, 2019) en actualización 2025; proyecto de ley IA radicado 2024. IMPLICACIÓN CEET: Brecha alta. Formación transversal en ética, cumplimiento normativo y herramientas XAI para todo perfil que despliegue IA."
+    },
+    {
+      "id": "L05",
+      "nombre": "Aprendizaje Federado y Privacy-Preserving ML",
+      "nombre_completo": "L05. Aprendizaje Federado y Privacy-Preserving ML",
+      "direccionador_id": "D1",
+      "area_id": "A1",
+      "fase_adopcion": "EVALUAR",
+      "trl_rango": "6-7",
+      "trl_valor": 6,
+      "sublineas": [
+        {
+          "id": "SL05a",
+          "nombre": "Federated Learning horizontal/vertical (FedAvg, FedProx)"
+        },
+        {
+          "id": "SL05b",
+          "nombre": "Differential Privacy (DP-SGD, Google RAPPOR, Apple DP)"
+        },
+        {
+          "id": "SL05c",
+          "nombre": "Homomorphic Encryption para ML (Microsoft SEAL, IBM HElib)"
+        },
+        {
+          "id": "SL05d",
+          "nombre": "Secure Multi-Party Computation (SMPC) para entrenamiento colaborativo"
+        }
+      ],
+      "sublineas_texto_completo": "SL05a. Federated Learning horizontal/vertical (FedAvg, FedProx)\nSL05b. Differential Privacy (DP-SGD, Google RAPPOR, Apple DP)\nSL05c. Homomorphic Encryption para ML (Microsoft SEAL, IBM HElib)\nSL05d. Secure Multi-Party Computation (SMPC) para entrenamiento colaborativo",
+      "tendencias_evidencia": "CRECIMIENTO (TRL 6–7). Horizonte corto–mediano (≤5 años). Frameworks activos: Google TensorFlow Federated, NVIDIA FLARE, PySyft (OpenMined), Flower. Referentes: Peter Kairouz (Google) y H. Brendan McMahan (Google), coautores del paper fundacional FedAvg (arXiv:1602.05629, 15.000+ citas). Artículo IEEE TIFS survey 2024 (Kairouz et al., Advances and Open Problems in FL). Patentes: US20210374605A1 (Apple, private federated learning). Cumplimiento GDPR/HIPAA/Ley 1581 Colombia (hábeas data). Mercado: $128M (2023) → $297M (2030) [Market.us]. IMPLICACIÓN CEET: Brecha moderada–alta. Oportunidad en salud y finanzas regulado. Convergencia con L22 (PQC) y L24 (Confidential Computing)."
+    },
+    {
+      "id": "L06",
+      "nombre": "Arquitecturas de Datos Modernas (Lakehouse y Data Mesh)",
+      "nombre_completo": "L06. Arquitecturas de Datos Modernas (Lakehouse y Data Mesh)",
+      "direccionador_id": "D2",
+      "area_id": "A2",
+      "fase_adopcion": "ADOPTAR",
+      "trl_rango": "8-9",
+      "trl_valor": 9,
+      "sublineas": [
+        {
+          "id": "SL06a",
+          "nombre": "Data Lakehouse: unificación warehouse + lake (Databricks, Snowflake)"
+        },
+        {
+          "id": "SL06b",
+          "nombre": "Open table formats: Apache Iceberg, Delta Lake, Apache Hudi"
+        },
+        {
+          "id": "SL06c",
+          "nombre": "Data Mesh: arquitectura descentralizada por dominio (Zhamak Dehghani)"
+        },
+        {
+          "id": "SL06d",
+          "nombre": "Stream processing: Apache Kafka, Apache Flink, Apache Pulsar"
+        }
+      ],
+      "sublineas_texto_completo": "SL06a. Data Lakehouse: unificación warehouse + lake (Databricks, Snowflake)\nSL06b. Open table formats: Apache Iceberg, Delta Lake, Apache Hudi\nSL06c. Data Mesh: arquitectura descentralizada por dominio (Zhamak Dehghani)\nSL06d. Stream processing: Apache Kafka, Apache Flink, Apache Pulsar",
+      "tendencias_evidencia": "CRECIMIENTO ACELERADO (TRL 8–9). Horizonte actual–corto. Paper fundacional: Armbrust et al. 2021 «Lakehouse: A New Generation of Open Platforms» (CIDR 2021, 800+ citas). Apache Iceberg adoptado por Netflix, Apple, LinkedIn; Snowflake y Databricks compitiendo por ecosistema Iceberg en 2024–2025. Patentes: US11269867B2 (Databricks, Delta Lake). Referente: Matei Zaharia (Stanford/Databricks, h-index 75+, creador Apache Spark). Gartner: >75% de grandes empresas adoptarán Lakehouse para 2026. Mercado streaming analytics: $14.5B (2023) → $35.6B (2032) [Fortune Business Insights]. Zhamak Dehghani (ThoughtWorks) Data Mesh principles (mar-2019). IMPLICACIÓN CEET: Brecha CRÍTICA. Stack obligatorio: SQL, Python, Spark, Iceberg/Delta, Kafka. Reemplaza ETL tradicional."
+    },
+    {
+      "id": "L07",
+      "nombre": "MLOps / DataOps y Feature Stores",
+      "nombre_completo": "L07. MLOps / DataOps y Feature Stores",
+      "direccionador_id": "D2",
+      "area_id": "A2",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "7-8",
+      "trl_valor": 8,
+      "sublineas": [
+        {
+          "id": "SL07a",
+          "nombre": "MLOps: MLflow, Kubeflow, Vertex AI, Amazon SageMaker"
+        },
+        {
+          "id": "SL07b",
+          "nombre": "DataOps: orquestación con Apache Airflow, Dagster, Prefect"
+        },
+        {
+          "id": "SL07c",
+          "nombre": "Feature stores: Feast, Tecton, Databricks Feature Store"
+        },
+        {
+          "id": "SL07d",
+          "nombre": "Model registry, CI/CD de modelos y A/B testing automatizado"
+        }
+      ],
+      "sublineas_texto_completo": "SL07a. MLOps: MLflow, Kubeflow, Vertex AI, Amazon SageMaker\nSL07b. DataOps: orquestación con Apache Airflow, Dagster, Prefect\nSL07c. Feature stores: Feast, Tecton, Databricks Feature Store\nSL07d. Model registry, CI/CD de modelos y A/B testing automatizado",
+      "tendencias_evidencia": "CRECIMIENTO ACELERADO (TRL 7–8). Horizonte actual–corto. Paper fundacional: Sculley et al. 2015 «Hidden Technical Debt in ML Systems» (NeurIPS, 4500+ citas). CNCF MLOps Working Group activo desde 2022. Gartner: 70% de empresas adoptarán DataOps+MLOps para 2026 [Gartner Hype Cycle Data Mgmt 2024]. Patentes: US20210342736A1 (Microsoft, automated ML pipeline). Retórica industrial: equipos con DataOps alcanzan 10x productividad vs. enfoques tradicionales [Eckerson Group 2024]. Mercado MLOps: $1.1B (2022) → $13.3B (2030) [Grand View Research]. IMPLICACIÓN CEET: Brecha CRÍTICA. Competencia que separa «data scientist» de «ML engineer». Stack open-source: MLflow, Airflow, DVC, Great Expectations."
+    },
+    {
+      "id": "L08",
+      "nombre": "Observabilidad y Gobernanza de Datos (DataGovOps)",
+      "nombre_completo": "L08. Observabilidad y Gobernanza de Datos (DataGovOps)",
+      "direccionador_id": "D2",
+      "area_id": "A2",
+      "fase_adopcion": "EVALUAR",
+      "trl_rango": "6-7",
+      "trl_valor": 6,
+      "sublineas": [
+        {
+          "id": "SL08a",
+          "nombre": "Data Observability: Monte Carlo, Great Expectations, Soda"
+        },
+        {
+          "id": "SL08b",
+          "nombre": "Data lineage y catálogos: DataHub, Apache Atlas, Collibra"
+        },
+        {
+          "id": "SL08c",
+          "nombre": "Governance-as-Code (DataGovOps): políticas versionadas en Git"
+        },
+        {
+          "id": "SL08d",
+          "nombre": "Calidad y SLAs de datos automáticos; CycloneDX Data-BOM"
+        }
+      ],
+      "sublineas_texto_completo": "SL08a. Data Observability: Monte Carlo, Great Expectations, Soda\nSL08b. Data lineage y catálogos: DataHub, Apache Atlas, Collibra\nSL08c. Governance-as-Code (DataGovOps): políticas versionadas en Git\nSL08d. Calidad y SLAs de datos automáticos; CycloneDX Data-BOM",
+      "tendencias_evidencia": "CRECIMIENTO (TRL 6–7). Horizonte corto–mediano. Gartner: 50% de organizaciones con arquitecturas distribuidas adoptarán observabilidad de datos en 2026 vs. <20% en 2024. OpenTelemetry (CNCF incubating) como estándar vendor-neutral. Estándares: ISO/IEC 38505-1 (Governance of Data), DAMA-DMBOK v2, NIST SP 800-188 (data de-identification). Regulación Colombia: Ley 1581/2012 (hábeas data), Decreto 1377/2013. CycloneDX v1.6 con CBOM y Data-BOM (OWASP, may-2024). IMPLICACIÓN CEET: Brecha alta. Perfil de data steward y DataOps engineer en demanda. Convergencia con L23 (AI governance)."
+    },
+    {
+      "id": "L09",
+      "nombre": "Analítica Aumentada e Inteligencia Decisional (Decision Intelligence)",
+      "nombre_completo": "L09. Analítica Aumentada e Inteligencia Decisional (Decision Intelligence)",
+      "direccionador_id": "D2",
+      "area_id": "A2",
+      "fase_adopcion": "EVALUAR",
+      "trl_rango": "6-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL09a",
+          "nombre": "AI-Augmented Analytics: detección automática de insights y anomalías"
+        },
+        {
+          "id": "SL09b",
+          "nombre": "Conversational Analytics / NL-to-SQL: Microsoft Copilot, Tableau AI, Gemini en Looker"
+        },
+        {
+          "id": "SL09c",
+          "nombre": "Decision Intelligence: grafos causales, simulación, optimización, RL"
+        },
+        {
+          "id": "SL09d",
+          "nombre": "Prescriptive analytics y pricing dinámico"
+        }
+      ],
+      "sublineas_texto_completo": "SL09a. AI-Augmented Analytics: detección automática de insights y anomalías\nSL09b. Conversational Analytics / NL-to-SQL: Microsoft Copilot, Tableau AI, Gemini en Looker\nSL09c. Decision Intelligence: grafos causales, simulación, optimización, RL\nSL09d. Prescriptive analytics y pricing dinámico",
+      "tendencias_evidencia": "CRECIMIENTO ACELERADO → SUSTITUCIÓN DISRUPTIVA DE BI TRADICIONAL (TRL 6–8). Horizonte mediano (2–5 años), madurez plena 2028–2032. Gartner: analítica aumentada será paradigma dominante para 2030, desplazando dashboards manuales. Decision Intelligence identificada por Gartner como disciplina emergente clave desde 2022. Referente: Lorien Pratt (Quantellia, libro «Link: How Decision Intelligence Connects Data, AI, and Innovation», 2019). Judea Pearl (UCLA, h-index 130+, Turing 2011) — inferencia causal. Patentes: US11625422B2 (Tableau, natural language analytics). Mercado augmented analytics: $13B (2023) → $73B (2032) [Market Research Future]. IMPLICACIÓN CEET: Brecha alta. Rol del analista migra de constructor de reportes a curador de modelos decisionales. Convergencia con L02 (agentes)."
+    },
+    {
+      "id": "L10",
+      "nombre": "Datos Sintéticos y Bases Vectoriales",
+      "nombre_completo": "L10. Datos Sintéticos y Bases Vectoriales",
+      "direccionador_id": "D2",
+      "area_id": "A2",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "7-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL10a",
+          "nombre": "Synthetic data tabular/imagen/texto (GANs, VAEs, diffusion models)"
+        },
+        {
+          "id": "SL10b",
+          "nombre": "Bases de datos vectoriales: Pinecone, Weaviate, Qdrant, Milvus, pgvector"
+        },
+        {
+          "id": "SL10c",
+          "nombre": "RAG (Retrieval-Augmented Generation) y hybrid search"
+        },
+        {
+          "id": "SL10d",
+          "nombre": "Knowledge graphs y embeddings para razonamiento"
+        }
+      ],
+      "sublineas_texto_completo": "SL10a. Synthetic data tabular/imagen/texto (GANs, VAEs, diffusion models)\nSL10b. Bases de datos vectoriales: Pinecone, Weaviate, Qdrant, Milvus, pgvector\nSL10c. RAG (Retrieval-Augmented Generation) y hybrid search\nSL10d. Knowledge graphs y embeddings para razonamiento",
+      "tendencias_evidencia": "CRECIMIENTO ACELERADO (TRL 7–8). Horizonte actual–corto. Paper fundacional RAG: Lewis et al. 2020 «Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks» (NeurIPS, arXiv:2005.11401, 5000+ citas). Mercado vector DB: $1.5B (2023) → $7.1B (2028) [MarketsandMarkets]. Datos sintéticos: Gartner proyecta que 60% de datos para IA serán sintéticos en 2024 [Gartner, jun-2022]. MIT Technology Review — Breakthrough Technologies 2022: synthetic data. Microsoft reporta ROI $3.70 por cada $1 en RAG; 73% de grandes implementaciones usan RAG [Microsoft Build 2024]. IMPLICACIÓN CEET: Brecha CRÍTICA. RAG es base de chatbots empresariales confiables. Stack: LangChain, LlamaIndex, pgvector, Weaviate."
+    },
+    {
+      "id": "L11",
+      "nombre": "Desarrollo AI-Native y Generación de Código (Vibe Coding)",
+      "nombre_completo": "L11. Desarrollo AI-Native y Generación de Código (Vibe Coding)",
+      "direccionador_id": "D3",
+      "area_id": "A3",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "7-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL11a",
+          "nombre": "AI pair programming: GitHub Copilot, Cursor, Windsurf, Codeium"
+        },
+        {
+          "id": "SL11b",
+          "nombre": "Agent-mode coding: GitHub Copilot Agent Mode (feb-2025), Devin (Cognition)"
+        },
+        {
+          "id": "SL11c",
+          "nombre": "Vibe coding: generación de aplicaciones por prompts en lenguaje natural"
+        },
+        {
+          "id": "SL11d",
+          "nombre": "Code LLMs especializados: Code Llama, DeepSeek-Coder, StarCoder"
+        }
+      ],
+      "sublineas_texto_completo": "SL11a. AI pair programming: GitHub Copilot, Cursor, Windsurf, Codeium\nSL11b. Agent-mode coding: GitHub Copilot Agent Mode (feb-2025), Devin (Cognition)\nSL11c. Vibe coding: generación de aplicaciones por prompts en lenguaje natural\nSL11d. Code LLMs especializados: Code Llama, DeepSeek-Coder, StarCoder",
+      "tendencias_evidencia": "CRECIMIENTO EXPLOSIVO (TRL 7–8). Horizonte corto (≤2 años). IEEE CS Top Tech Trends 2026: vibe coding entre las 26 tecnologías que definen 2026. Benchmark SWE-bench Verified: Claude 4 Opus alcanza ~72% (2025) vs. ~2% de GPT-4 (2023). Paper: Chen et al. 2021 «Evaluating Large Language Models Trained on Code» (arXiv:2107.03374, base de Codex, 2500+ citas). GitHub reporta que 92% de desarrolladores en EE.UU. usan AI coding tools [GitHub Octoverse 2024]. Gartner: 80% de organizaciones tendrán equipos pequeños AI-augmented para 2030. Riesgo: ~70% del código generado por IA requiere revisión/refactoring [Stack Overflow Developer Survey 2024]. IMPLICACIÓN CEET: Brecha CRÍTICA. Redefine la formación en desarrollo: del «cómo escribir código» al «cómo especificar, revisar y gobernar código generado». Stack: VS Code + Copilot, Cursor, revisión de PR asistida."
+    },
+    {
+      "id": "L12",
+      "nombre": "Platform Engineering e Internal Developer Platforms (IDP)",
+      "nombre_completo": "L12. Platform Engineering e Internal Developer Platforms (IDP)",
+      "direccionador_id": "D3",
+      "area_id": "A3",
+      "fase_adopcion": "ADOPTAR",
+      "trl_rango": "8",
+      "trl_valor": 8,
+      "sublineas": [
+        {
+          "id": "SL12a",
+          "nombre": "IDPs: Backstage (Spotify, CNCF), Port, Humanitec"
+        },
+        {
+          "id": "SL12b",
+          "nombre": "Infrastructure as Code: Terraform, Pulumi, OpenTofu, Crossplane"
+        },
+        {
+          "id": "SL12c",
+          "nombre": "GitOps: ArgoCD, Flux (CNCF graduated)"
+        },
+        {
+          "id": "SL12d",
+          "nombre": "Developer Experience (DevEx) y productivity metrics (DORA, SPACE)"
+        }
+      ],
+      "sublineas_texto_completo": "SL12a. IDPs: Backstage (Spotify, CNCF), Port, Humanitec\nSL12b. Infrastructure as Code: Terraform, Pulumi, OpenTofu, Crossplane\nSL12c. GitOps: ArgoCD, Flux (CNCF graduated)\nSL12d. Developer Experience (DevEx) y productivity metrics (DORA, SPACE)",
+      "tendencias_evidencia": "CRECIMIENTO (TRL 8). Horizonte actual–corto. Gartner Hype Cycle DevOps 2024: Platform Engineering en Peak of Inflated Expectations. Gartner: 80% de organizaciones de ingeniería de software establecerán equipos de platform engineering para 2026. CNCF Platform Engineering Maturity Model (2024). Ganancias de eficiencia del 30–50% [Gartner 2024]. DORA Report 2024 (Google Cloud, 10ª edición) documenta correlación entre platform engineering y alto rendimiento. IMPLICACIÓN CEET: Brecha alta. Rol emergente de Platform Engineer desplaza a DevOps Engineer tradicional. Stack: Kubernetes, Terraform, Backstage, ArgoCD."
+    },
+    {
+      "id": "L13",
+      "nombre": "Automatización de Testing con IA (AI QA)",
+      "nombre_completo": "L13. Automatización de Testing con IA (AI QA)",
+      "direccionador_id": "D3",
+      "area_id": "A3",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "6-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL13a",
+          "nombre": "AI-powered test generation desde user stories (Applitools, Mabl, Testim)"
+        },
+        {
+          "id": "SL13b",
+          "nombre": "Self-healing test automation (selectores dinámicos con ML)"
+        },
+        {
+          "id": "SL13c",
+          "nombre": "AI-based defect prediction y priorización por riesgo"
+        },
+        {
+          "id": "SL13d",
+          "nombre": "QA para sistemas de IA: metamorphic testing, HELM Safety, TruthfulQA"
+        }
+      ],
+      "sublineas_texto_completo": "SL13a. AI-powered test generation desde user stories (Applitools, Mabl, Testim)\nSL13b. Self-healing test automation (selectores dinámicos con ML)\nSL13c. AI-based defect prediction y priorización por riesgo\nSL13d. QA para sistemas de IA: metamorphic testing, HELM Safety, TruthfulQA",
+      "tendencias_evidencia": "CRECIMIENTO ACELERADO (TRL 6–8). Horizonte corto (≤2 años). Capgemini World Quality Report 2025–2026: GenAI es skill #1 para quality engineers (63% de encuestados). TestGuild State of Test Automation 2026: 72,8% de testers priorizan testing con IA; 81% de equipos de desarrollo usan IA en flujos de testing. Parasoft, Applitools y Mabl liderando. Patentes: US11657307B1 (Mabl, self-healing tests). Reducción del 40–60% en tiempo de creación de pruebas; reducción de mantenimiento de suites del 60–80%. IMPLICACIÓN CEET: Brecha alta. Perfil QA Automation Engineer con IA. Stack: Playwright, Selenium, Cypress + asistentes IA."
+    },
+    {
+      "id": "L14",
+      "nombre": "AIOps, Observabilidad y FinOps",
+      "nombre_completo": "L14. AIOps, Observabilidad y FinOps",
+      "direccionador_id": "D3",
+      "area_id": "A3",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "7-8",
+      "trl_valor": 8,
+      "sublineas": [
+        {
+          "id": "SL14a",
+          "nombre": "AIOps: Dynatrace, Datadog, New Relic, Splunk Observability"
+        },
+        {
+          "id": "SL14b",
+          "nombre": "OpenTelemetry (CNCF incubating) como estándar de tracing/metrics/logs"
+        },
+        {
+          "id": "SL14c",
+          "nombre": "FinOps: Cloud cost management (FinOps Foundation, Linux Foundation)"
+        },
+        {
+          "id": "SL14d",
+          "nombre": "Kubernetes-native observability: Prometheus, Grafana, Loki, Tempo"
+        }
+      ],
+      "sublineas_texto_completo": "SL14a. AIOps: Dynatrace, Datadog, New Relic, Splunk Observability\nSL14b. OpenTelemetry (CNCF incubating) como estándar de tracing/metrics/logs\nSL14c. FinOps: Cloud cost management (FinOps Foundation, Linux Foundation)\nSL14d. Kubernetes-native observability: Prometheus, Grafana, Loki, Tempo",
+      "tendencias_evidencia": "CRECIMIENTO ACELERADO (TRL 7–8). Horizonte corto. FinOps Foundation: >20.000 miembros; estándar FOCUS (FinOps Open Cost and Usage Specification) v1.0 lanzado jun-2024. IDC: gasto mundial en infraestructura IA $337B (2025) → $749B (2028). Gartner: 50% de organizaciones adoptarán observabilidad sofisticada en 2026 (vs. ~20% en 2024). OpenTelemetry es el 2º proyecto CNCF más activo (solo detrás de Kubernetes). Mercado AIOps: $15.7B (2023) → $71B (2032) [Allied Market Research]. IMPLICACIÓN CEET: Brecha CRÍTICA. FinOps y AIOps son competencias diferenciadoras. Stack open-source: OpenTelemetry, Prometheus, Grafana, Kubecost."
+    },
+    {
+      "id": "L15",
+      "nombre": "Arquitecturas Cloud-Native y Serverless",
+      "nombre_completo": "L15. Arquitecturas Cloud-Native y Serverless",
+      "direccionador_id": "D3",
+      "area_id": "A3",
+      "fase_adopcion": "ADOPTAR",
+      "trl_rango": "8-9",
+      "trl_valor": 9,
+      "sublineas": [
+        {
+          "id": "SL15a",
+          "nombre": "Kubernetes y microservicios (CNCF graduated projects)"
+        },
+        {
+          "id": "SL15b",
+          "nombre": "Serverless / FaaS: AWS Lambda, Azure Functions, Google Cloud Functions, Knative"
+        },
+        {
+          "id": "SL15c",
+          "nombre": "Service mesh: Istio, Linkerd, Cilium"
+        },
+        {
+          "id": "SL15d",
+          "nombre": "WebAssembly (WASM) para edge computing: WASI, wasmCloud"
+        }
+      ],
+      "sublineas_texto_completo": "SL15a. Kubernetes y microservicios (CNCF graduated projects)\nSL15b. Serverless / FaaS: AWS Lambda, Azure Functions, Google Cloud Functions, Knative\nSL15c. Service mesh: Istio, Linkerd, Cilium\nSL15d. WebAssembly (WASM) para edge computing: WASI, wasmCloud",
+      "tendencias_evidencia": "MESETA DE ADOPCIÓN (TRL 8–9). Horizonte actual. CNCF Annual Survey 2023: 84% de organizaciones en producción con Kubernetes. Kubernetes es el estándar de facto. WASM como «sucesor de Docker» segun Solomon Hykes (creador de Docker, jun-2019). Mercado serverless: $9.2B (2023) → $37B (2030) [Fortune Business Insights]. CNCF WASM landscape con >100 proyectos (2024). IMPLICACIÓN CEET: Brecha CRÍTICA. Kubernetes y contenedores son competencia obligatoria. Stack: Docker, Kubernetes, Helm, Istio."
+    },
+    {
+      "id": "L16",
+      "nombre": "Gemelos Digitales y Simulación",
+      "nombre_completo": "L16. Gemelos Digitales y Simulación",
+      "direccionador_id": "D4",
+      "area_id": "A4",
+      "fase_adopcion": "ADOPTAR",
+      "trl_rango": "8-9",
+      "trl_valor": 8,
+      "sublineas": [
+        {
+          "id": "SL16a",
+          "nombre": "Gemelos digitales industriales (Siemens MindSphere, GE Digital, PTC ThingWorx)"
+        },
+        {
+          "id": "SL16b",
+          "nombre": "Simulación física con IA: NVIDIA Omniverse, Isaac Sim, CARLA"
+        },
+        {
+          "id": "SL16c",
+          "nombre": "Gemelos de ciudad (Smart Cities): Singapur Virtual Singapore, Helsinki 3D+"
+        },
+        {
+          "id": "SL16d",
+          "nombre": "Gemelos de procesos y salud (patient digital twin)"
+        }
+      ],
+      "sublineas_texto_completo": "SL16a. Gemelos digitales industriales (Siemens MindSphere, GE Digital, PTC ThingWorx)\nSL16b. Simulación física con IA: NVIDIA Omniverse, Isaac Sim, CARLA\nSL16c. Gemelos de ciudad (Smart Cities): Singapur Virtual Singapore, Helsinki 3D+\nSL16d. Gemelos de procesos y salud (patient digital twin)",
+      "tendencias_evidencia": "MESETA DE ADOPCIÓN (TRL 8–9). Horizonte actual. Mercado gemelos digitales: $16.7B (2023) → $259B (2032) [Precedence Research]. Estándar ISO/IEC 30173:2023 (Digital Twin Concepts and Terminology). Digital Twin Consortium (Object Management Group) con 200+ miembros. Referente: Michael Grieves (U. Michigan, creador del concepto en 2002). Publicaciones: Scopus «digital twin» pasó de ~500 (2018) a >15.000 (2024). NVIDIA Omniverse con 40+ partners industriales. IMPLICACIÓN CEET: Brecha moderada–alta. Aplicación directa en laboratorios de electricidad/electrónica del CEET como herramienta pedagógica. Convergencia con L03 (ML) y L16 NDT de Telecom."
+    },
+    {
+      "id": "L17",
+      "nombre": "Computación Espacial y Realidad Extendida (XR)",
+      "nombre_completo": "L17. Computación Espacial y Realidad Extendida (XR)",
+      "direccionador_id": "D4",
+      "area_id": "A4",
+      "fase_adopcion": "EVALUAR",
+      "trl_rango": "7-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL17a",
+          "nombre": "Spatial computing: Apple Vision Pro, Meta Quest 3, Microsoft HoloLens"
+        },
+        {
+          "id": "SL17b",
+          "nombre": "Mixed Reality para entrenamiento industrial y educación técnica"
+        },
+        {
+          "id": "SL17c",
+          "nombre": "WebXR y estándares abiertos (Khronos OpenXR)"
+        },
+        {
+          "id": "SL17d",
+          "nombre": "Gaussian Splatting y NeRFs para reconstrucción 3D"
+        }
+      ],
+      "sublineas_texto_completo": "SL17a. Spatial computing: Apple Vision Pro, Meta Quest 3, Microsoft HoloLens\nSL17b. Mixed Reality para entrenamiento industrial y educación técnica\nSL17c. WebXR y estándares abiertos (Khronos OpenXR)\nSL17d. Gaussian Splatting y NeRFs para reconstrucción 3D",
+      "tendencias_evidencia": "CRECIMIENTO (TRL 7–8). Horizonte mediano (2–5 años). Gartner Top Strategic Trends 2025 (#8: Spatial Computing). Apple Vision Pro lanzado feb-2024 (~$3.500). Mercado XR: $41B (2023) → $252B (2028) [IDC WW AR/VR Forecast]. Paper fundacional Gaussian Splatting: Kerbl et al. 2023 SIGGRAPH (1500+ citas en 18 meses). Estándar OpenXR 1.1 (Khronos Group, abr-2024). Patentes: US11270410B2 (Apple, computing environment para spatial). IMPLICACIÓN CEET: Brecha moderada. Aplicación en capacitación técnica y laboratorios remotos. Convergencia natural con L20 de Telecom (XR/holográfico)."
+    },
+    {
+      "id": "L18",
+      "nombre": "Robótica Colaborativa y Drones-as-a-Service",
+      "nombre_completo": "L18. Robótica Colaborativa y Drones-as-a-Service",
+      "direccionador_id": "D4",
+      "area_id": "A4",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "7-9",
+      "trl_valor": 8,
+      "sublineas": [
+        {
+          "id": "SL18a",
+          "nombre": "Cobots: Universal Robots, FANUC, ABB (estándar ISO/TS 15066)"
+        },
+        {
+          "id": "SL18b",
+          "nombre": "Robots polifuncionales para entornos no estructurados"
+        },
+        {
+          "id": "SL18c",
+          "nombre": "Drones autónomos (DaaS): Skydio, DJI Enterprise, Parrot ANAFI Ai"
+        },
+        {
+          "id": "SL18d",
+          "nombre": "Swarm robotics y coordinación multi-agente física"
+        }
+      ],
+      "sublineas_texto_completo": "SL18a. Cobots: Universal Robots, FANUC, ABB (estándar ISO/TS 15066)\nSL18b. Robots polifuncionales para entornos no estructurados\nSL18c. Drones autónomos (DaaS): Skydio, DJI Enterprise, Parrot ANAFI Ai\nSL18d. Swarm robotics y coordinación multi-agente física",
+      "tendencias_evidencia": "MESETA DE ADOPCIÓN / CRECIMIENTO SEGMENTADO (TRL 7–9). Horizonte actual–corto. IFR World Robotics Report 2024: 4,28 millones de robots industriales operando globalmente (+10% YoY). Estándares: ISO 10218-1/2:2025 (safety requirements), ISO/TS 15066:2016 (collaborative robots). IEEE CS Top Tech 2025: DaaS entre predicciones principales. Patentes: US11396097B2 (Boston Dynamics, mobile manipulator). Mercado cobots: $1.9B (2023) → $20.6B (2033) [Allied Market Research]. IMPLICACIÓN CEET: Brecha alta. Convergencia con laboratorios de automatización industrial. Estándares ISO de seguridad colaborativa son competencia diferenciadora."
+    },
+    {
+      "id": "L19",
+      "nombre": "IA Física y Robótica Humanoide",
+      "nombre_completo": "L19. IA Física y Robótica Humanoide",
+      "direccionador_id": "D4",
+      "area_id": "A4",
+      "fase_adopcion": "MONITOREAR",
+      "trl_rango": "5-6",
+      "trl_valor": 5,
+      "sublineas": [
+        {
+          "id": "SL19a",
+          "nombre": "Physical AI / Embodied AI (NVIDIA GR00T, DeepMind RT-2)"
+        },
+        {
+          "id": "SL19b",
+          "nombre": "Humanoides: Tesla Optimus, Figure 02, Boston Dynamics Atlas, Agility Digit"
+        },
+        {
+          "id": "SL19c",
+          "nombre": "Foundation models para robótica (Vision-Language-Action models)"
+        },
+        {
+          "id": "SL19d",
+          "nombre": "Sim-to-real transfer y aprendizaje por imitación"
+        }
+      ],
+      "sublineas_texto_completo": "SL19a. Physical AI / Embodied AI (NVIDIA GR00T, DeepMind RT-2)\nSL19b. Humanoides: Tesla Optimus, Figure 02, Boston Dynamics Atlas, Agility Digit\nSL19c. Foundation models para robótica (Vision-Language-Action models)\nSL19d. Sim-to-real transfer y aprendizaje por imitación",
+      "tendencias_evidencia": "EMERGENTE CON CRECIMIENTO ACELERADO (TRL 5–6). Horizonte mediano–largo (>5 años). Gartner Top Strategic Trend 2026: Physical AI. Paper VLA fundacional: Google RT-2 (arXiv:2307.15818, jul-2023). NVIDIA Project GR00T anunciado en GTC mar-2024. IEEE 2026: 77% de encuestados cree que humanoides serán compañeros de trabajo comunes; 37% de empresas consideran implementarlos. Goldman Sachs proyecta mercado humanoides $38B para 2035. Empresas unicornio: Figure AI ($2.6B valuación, mar-2024), 1X Technologies, Agility Robotics. IMPLICACIÓN CEET: Brecha moderada. Monitoreo con pilotos conceptuales. Tema estratégico investigativo."
+    },
+    {
+      "id": "L20",
+      "nombre": "Interfaces Cerebro-Computador (BCI) y Neurotecnología",
+      "nombre_completo": "L20. Interfaces Cerebro-Computador (BCI) y Neurotecnología",
+      "direccionador_id": "D4",
+      "area_id": "A4",
+      "fase_adopcion": "MONITOREAR",
+      "trl_rango": "4-6",
+      "trl_valor": 4,
+      "sublineas": [
+        {
+          "id": "SL20a",
+          "nombre": "BCI invasivos: Neuralink (aprobación FDA IDE may-2023), Synchron"
+        },
+        {
+          "id": "SL20b",
+          "nombre": "BCI no invasivos: EEG-based (OpenBCI, Emotiv, Neurable)"
+        },
+        {
+          "id": "SL20c",
+          "nombre": "Neuroethics y neurorights (Chile, ley 21.383 de 2021)"
+        },
+        {
+          "id": "SL20d",
+          "nombre": "Aumento cognitivo y biometric authentication neural"
+        }
+      ],
+      "sublineas_texto_completo": "SL20a. BCI invasivos: Neuralink (aprobación FDA IDE may-2023), Synchron\nSL20b. BCI no invasivos: EEG-based (OpenBCI, Emotiv, Neurable)\nSL20c. Neuroethics y neurorights (Chile, ley 21.383 de 2021)\nSL20d. Aumento cognitivo y biometric authentication neural",
+      "tendencias_evidencia": "EMERGENTE (TRL 4–6). Horizonte largo (>5 años). Gartner Top 10 Trends 2025 (#10: Neurological Enhancement). Synchron primer implante humano comercial (EE.UU., 2022). Neuralink primer humano implantado ene-2024. Mercado BCI: $2.4B (2023) → $6.2B (2030) [MarketsandMarkets]. Chile fue primer país con neuroderechos en Constitución (2021); UNESCO Rec. sobre Neurotecnología en preparación para 2025. Referente: Miguel Nicolelis (Duke, h-index 110+). IMPLICACIÓN CEET: Brecha baja. Monitoreo estratégico. No prioritario para formación técnica a 10 años."
+    },
+    {
+      "id": "L21",
+      "nombre": "Zero Trust y Ciberseguridad Preventiva con IA",
+      "nombre_completo": "L21. Zero Trust y Ciberseguridad Preventiva con IA",
+      "direccionador_id": "D5",
+      "area_id": "A5",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "7-8",
+      "trl_valor": 8,
+      "sublineas": [
+        {
+          "id": "SL21a",
+          "nombre": "Zero Trust Architecture (NIST SP 800-207, NIST SP 1800-35)"
+        },
+        {
+          "id": "SL21b",
+          "nombre": "AI SecOps y agentes de ciberseguridad autónomos (Microsoft Security Copilot, CrowdStrike Charlotte AI)"
+        },
+        {
+          "id": "SL21c",
+          "nombre": "Preemptive cybersecurity: denial & deception, automated moving target defense"
+        },
+        {
+          "id": "SL21d",
+          "nombre": "SASE/SSE y microsegmentación identity-driven"
+        }
+      ],
+      "sublineas_texto_completo": "SL21a. Zero Trust Architecture (NIST SP 800-207, NIST SP 1800-35)\nSL21b. AI SecOps y agentes de ciberseguridad autónomos (Microsoft Security Copilot, CrowdStrike Charlotte AI)\nSL21c. Preemptive cybersecurity: denial & deception, automated moving target defense\nSL21d. SASE/SSE y microsegmentación identity-driven",
+      "tendencias_evidencia": "CRECIMIENTO FUERTE (TRL 7–8). Horizonte actual–corto. NIST SP 800-207 (ago-2020) y NIST SP 1800-35 (jun-2025, 19 implementaciones de referencia). Executive Order 14028 (EE.UU., may-2021) mandató Zero Trust federal. EU NIS2 Directive (vigor ene-2023, transposición oct-2024). Gartner: 50% del gasto en seguridad será preventivo para 2030 (vs. <10% en 2024). Mercado Zero Trust: $31B (2023) → $95B (2030) [Fortune Business Insights]. Líderes Gartner MQ SSE 2024: Netskope, Zscaler, Palo Alto. Colombia: CONPES 3995 (Política Nacional de Confianza y Seguridad Digital, jul-2020) + MinTIC Guía de Zero Trust 2023. IMPLICACIÓN CEET: Brecha CRÍTICA. Oportunidad de perfil diferenciador ciberseguridad+IA. Stack open-source: Wireshark, Suricata, Zeek, Sigma."
+    },
+    {
+      "id": "L22",
+      "nombre": "Criptografía Post-Cuántica (PQC) y Crypto-Agility",
+      "nombre_completo": "L22. Criptografía Post-Cuántica (PQC) y Crypto-Agility",
+      "direccionador_id": "D5",
+      "area_id": "A5",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "7-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL22a",
+          "nombre": "ML-KEM (FIPS 203, CRYSTALS-Kyber) — key encapsulation"
+        },
+        {
+          "id": "SL22b",
+          "nombre": "ML-DSA (FIPS 204, CRYSTALS-Dilithium) y SLH-DSA (FIPS 205, SPHINCS+) — firmas digitales"
+        },
+        {
+          "id": "SL22c",
+          "nombre": "HQC — 5º algoritmo PQC seleccionado por NIST (11-mar-2025)"
+        },
+        {
+          "id": "SL22d",
+          "nombre": "Crypto-agility y CBOM (CycloneDX v1.6); migración híbrida clásica→PQ"
+        }
+      ],
+      "sublineas_texto_completo": "SL22a. ML-KEM (FIPS 203, CRYSTALS-Kyber) — key encapsulation\nSL22b. ML-DSA (FIPS 204, CRYSTALS-Dilithium) y SLH-DSA (FIPS 205, SPHINCS+) — firmas digitales\nSL22c. HQC — 5º algoritmo PQC seleccionado por NIST (11-mar-2025)\nSL22d. Crypto-agility y CBOM (CycloneDX v1.6); migración híbrida clásica→PQ",
+      "tendencias_evidencia": "CRECIMIENTO URGENTE POR MANDATO NORMATIVO (TRL 7–8). Horizonte corto–mediano (≤5 años). NIST FIPS 203/204/205 publicados 13-ago-2024; HQC seleccionado 11-mar-2025. Amenaza «harvest-now-decrypt-later»: estados-nación almacenan datos cifrados esperando capacidad cuántica. NSA CNSA 2.0 (sep-2022) mandató transición PQC para sistemas de seguridad nacional antes de 2035. EO 14144 (EE.UU., ene-2025) acelera adopción PQC federal. Patentes: US11258582B2 (IBM, post-quantum digital signature). Referentes: Daniel J. Bernstein (UIC, h-index 60+), Tanja Lange (TU Eindhoven), autores de SPHINCS+. IBM Quantum Safe Explorer y Quantum Safe Transformation Services. Colombia: CCOC (Comando Conjunto Cibernético) evaluando roadmap PQC 2024–2025. IMPLICACIÓN CEET: Brecha alta. Competencia específica en cripto diferencia perfiles de ciberseguridad. Convergencia con L22 de Telecom."
+    },
+    {
+      "id": "L23",
+      "nombre": "Gobernanza de IA y Cumplimiento Regulatorio",
+      "nombre_completo": "L23. Gobernanza de IA y Cumplimiento Regulatorio",
+      "direccionador_id": "D5",
+      "area_id": "A5",
+      "fase_adopcion": "PROBAR",
+      "trl_rango": "6-7",
+      "trl_valor": 6,
+      "sublineas": [
+        {
+          "id": "SL23a",
+          "nombre": "EU AI Act (Reg. UE 2024/1689): compliance por niveles de riesgo"
+        },
+        {
+          "id": "SL23b",
+          "nombre": "AI Governance Platforms: Credo AI, Holistic AI, Fairly AI, IBM watsonx.governance"
+        },
+        {
+          "id": "SL23c",
+          "nombre": "AI Model Cards, Datasheets y AI Bill of Materials (AIBOM)"
+        },
+        {
+          "id": "SL23d",
+          "nombre": "Disinformation security y digital provenance (C2PA, content credentials)"
+        }
+      ],
+      "sublineas_texto_completo": "SL23a. EU AI Act (Reg. UE 2024/1689): compliance por niveles de riesgo\nSL23b. AI Governance Platforms: Credo AI, Holistic AI, Fairly AI, IBM watsonx.governance\nSL23c. AI Model Cards, Datasheets y AI Bill of Materials (AIBOM)\nSL23d. Disinformation security y digital provenance (C2PA, content credentials)",
+      "tendencias_evidencia": "CRECIMIENTO URGENTE POR OBLIGACIÓN REGULATORIA (TRL 6–7). Horizonte actual–corto (≤2 años). EU AI Act en vigor 1-ago-2024 (obligaciones escalonadas 2025–2027); multas hasta 7% de facturación global. NIST AI RMF 1.0 (ene-2023) + Generative AI Profile (jul-2024). ISO/IEC 42001:2023 (AI Management System) — primer estándar certificable. OECD AI Principles (2019, actualizado 2024). C2PA (Coalition for Content Provenance and Authenticity) con Adobe, Microsoft, BBC, NYT. Gartner 2025 Top 10 Trend #2 (AI Governance Platforms) y #3 (Disinformation Security): 50% de empresas usarán herramientas de detección deepfake para 2028 (vs. 5% en 2024). Colombia: Proyecto de Ley 059/2023 (regulación IA) en trámite; CONPES IA en actualización. IMPLICACIÓN CEET: Brecha alta. Formación transversal obligatoria para todos los perfiles que desplieguen IA. Nuevo rol: AI Compliance Officer."
+    },
+    {
+      "id": "L24",
+      "nombre": "Computación Confidencial y Privacidad",
+      "nombre_completo": "L24. Computación Confidencial y Privacidad",
+      "direccionador_id": "D5",
+      "area_id": "A5",
+      "fase_adopcion": "EVALUAR",
+      "trl_rango": "6-8",
+      "trl_valor": 7,
+      "sublineas": [
+        {
+          "id": "SL24a",
+          "nombre": "Trusted Execution Environments (TEE): Intel SGX/TDX, AMD SEV-SNP, ARM CCA"
+        },
+        {
+          "id": "SL24b",
+          "nombre": "Confidential VMs y confidential containers (Confidential Computing Consortium)"
+        },
+        {
+          "id": "SL24c",
+          "nombre": "Fully Homomorphic Encryption (FHE): Microsoft SEAL, OpenFHE"
+        },
+        {
+          "id": "SL24d",
+          "nombre": "Privacy Enhancing Technologies (PETs): zero-knowledge proofs (zk-SNARKs)"
+        }
+      ],
+      "sublineas_texto_completo": "SL24a. Trusted Execution Environments (TEE): Intel SGX/TDX, AMD SEV-SNP, ARM CCA\nSL24b. Confidential VMs y confidential containers (Confidential Computing Consortium)\nSL24c. Fully Homomorphic Encryption (FHE): Microsoft SEAL, OpenFHE\nSL24d. Privacy Enhancing Technologies (PETs): zero-knowledge proofs (zk-SNARKs)",
+      "tendencias_evidencia": "CRECIMIENTO (TRL 6–8). Horizonte corto–mediano. Confidential Computing Consortium (Linux Foundation, 2019) con Intel, AMD, ARM, Microsoft, Google, IBM, Alibaba. Gartner Top Strategic Trend 2026: Confidential Computing. Publicaciones FHE: Gentry tesis 2009 (8000+ citas) → crecimiento sostenido. Patentes: US11764940B2 (Microsoft, confidential transaction processing). Mercado confidential computing: $5.3B (2023) → $184B (2032) [Everest Group / MarketsandMarkets]. Casos de uso críticos en salud y finanzas: Royal Bank of Canada, HSBC, NHS UK pilotos PET. UN PET Lab (Naciones Unidas, oct-2022). IMPLICACIÓN CEET: Brecha moderada–alta. Habilitador técnico para L05 (federated learning) y L23 (AI governance)."
+    },
+    {
+      "id": "L25",
+      "nombre": "Soberanía Digital y Seguridad de Sistemas Agénticos",
+      "nombre_completo": "L25. Soberanía Digital y Seguridad de Sistemas Agénticos",
+      "direccionador_id": "D5",
+      "area_id": "A5",
+      "fase_adopcion": "EVALUAR",
+      "trl_rango": "5-7",
+      "trl_valor": 6,
+      "sublineas": [
+        {
+          "id": "SL25a",
+          "nombre": "Sovereign cloud: Gaia-X (Europa), Bleu (FR), Delos (DE), S3NS (FR)"
+        },
+        {
+          "id": "SL25b",
+          "nombre": "Geopatriation y data residency por regulación"
+        },
+        {
+          "id": "SL25c",
+          "nombre": "AI Security: protección contra prompt injection, data poisoning, model inversion (OWASP Top 10 LLM, MITRE ATLAS)"
+        },
+        {
+          "id": "SL25d",
+          "nombre": "Agent security, identity resilience y robotics cybersecurity"
+        }
+      ],
+      "sublineas_texto_completo": "SL25a. Sovereign cloud: Gaia-X (Europa), Bleu (FR), Delos (DE), S3NS (FR)\nSL25b. Geopatriation y data residency por regulación\nSL25c. AI Security: protección contra prompt injection, data poisoning, model inversion (OWASP Top 10 LLM, MITRE ATLAS)\nSL25d. Agent security, identity resilience y robotics cybersecurity",
+      "tendencias_evidencia": "EMERGENTE CON CRECIMIENTO ACELERADO (TRL 5–7). Horizonte corto–mediano. Gartner Top Strategic Trend 2026: >75% de empresas EU/Medio Oriente geopatriarán workloads para 2030. Gaia-X Association (jun-2020) con 350+ miembros. OWASP Top 10 for LLM Applications v2.0 (nov-2024). MITRE ATLAS (Adversarial Threat Landscape for AI Systems) con 80+ técnicas documentadas. NIST AI 100-2 E2025 (adversarial ML taxonomy, ene-2025). IEEE 2025: 41% de empresas implementando ciberseguridad robótica; 33% completamente implementado. Colombia: Ley 1581/2012 de hábeas data; Circular Externa 007/2021 de la Superintendencia Financiera sobre ciberseguridad. IMPLICACIÓN CEET: Brecha alta. Perfil emergente de AI Security Engineer. Stack: PyRIT (Microsoft), Garak, Promptfoo, Rebuff."
+    }
+  ],
+  "resumen": {
+    "total_direccionadores": 5,
+    "total_areas": 5,
+    "total_lineas": 25,
+    "total_sublineas": 100,
+    "distribucion_por_anillo": [
+      {
+        "anillo": "ADOPTAR",
+        "count": 5
+      },
+      {
+        "anillo": "PROBAR",
+        "count": 12
+      },
+      {
+        "anillo": "EVALUAR",
+        "count": 6
+      },
+      {
+        "anillo": "MONITOREAR",
+        "count": 2
+      }
+    ],
+    "distribucion_por_direccionador": [
+      {
+        "id": "D1",
+        "count": 5
+      },
+      {
+        "id": "D2",
+        "count": 5
+      },
+      {
+        "id": "D3",
+        "count": 5
+      },
+      {
+        "id": "D4",
+        "count": 5
+      },
+      {
+        "id": "D5",
+        "count": 5
+      }
+    ]
+  }
+}
