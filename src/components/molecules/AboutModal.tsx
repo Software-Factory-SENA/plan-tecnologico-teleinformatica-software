@@ -75,12 +75,12 @@ export function AboutModal({ open, onOpenChange }: AboutModalProps) {
           <div className="bg-sena-green/10 rounded-xl p-3 border border-sena-green/20 mt-2 text-left">
             <p className="text-xs font-semibold text-sena-green mb-1">Autores:</p>
             <p className="text-[11px] text-sena-gray-dark leading-tight">
-              Ing. Víctor Claudio Vladimir Cortés Arévalo.   Esp., Mg.<br/>
+              <strong>Ing. Víctor Claudio Vladimir Cortés Arévalo.   Esp., Mg.</strong><br/>
               <span className="italic">Instructor G20 — Área de Teleinformática.</span><br />
               <span className="italic">Arquitectura de Software · Vigilancia Tecnológica · Prospectiva Tecnológica · Diseño y elaboración del Radar Tecnológico. </span><br />
             </p>
             <p className="text-[11px] text-sena-gray-dark leading-tight">
-              Ing. Mauricio Alexander Vargas Rodríguez, MSc., MBA Esp. PM. <br />
+              <strong>Ing. Mauricio Alexander Vargas Rodríguez, MSc., MBA Esp. PM. </strong><br />
               Instructor G14 — Área de Telecomunicaciones <br/>
               <span className="italic">Desarrollador Frontend · Diseño UX/UI (Arquitectura Base)</span><br />
             </p>
