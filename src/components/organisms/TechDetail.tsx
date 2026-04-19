@@ -123,10 +123,30 @@ export function TechDetail({ layout, rings, sectors, onClose: _onClose }: TechDe
         </CardContent>
       </Card>
 
-      {/* ── Descripción ────────────────────────────────────── */}
-      <div>
-        <p className="text-xs text-muted-foreground leading-relaxed">{tech.desc}</p>
-      </div>
+      {/* ── Sublíneas ──────────────────────────────────────── */}
+      {tech.sublines && tech.sublines.length > 0 && (
+        <div>
+          <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground block mb-2">
+            Sublíneas
+          </span>
+          <ul className="space-y-1.5">
+            {tech.sublines.map((sub) => (
+              <li
+                key={sub.id}
+                className="flex gap-2 text-xs leading-relaxed"
+              >
+                <span
+                  className="font-mono text-[10px] font-semibold flex-shrink-0 mt-0.5"
+                  style={{ color: sector?.color ?? "#888888" }}
+                >
+                  {sub.id}
+                </span>
+                <span className="text-muted-foreground">{sub.name}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {/* ── Metadatos ──────────────────────────────────────── */}
       <div className="grid grid-cols-2 gap-2">

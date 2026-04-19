@@ -287,6 +287,7 @@ function adaptTechnologies(
       impact: impactFromTrl(l.trl_valor),
       horizon: horizonFromPhase(l.fase_adopcion),
       tags,
+      sublines: (l.sublineas ?? []).map((s) => ({ id: s.id, name: s.nombre })),
     };
   });
 }

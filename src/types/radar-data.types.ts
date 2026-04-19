@@ -111,6 +111,13 @@ export interface AreaData {
   sector: string;
 }
 
+export interface SublineData {
+  /** Identificador, ej: "SL01a" */
+  id: string;
+  /** Nombre completo de la sublínea */
+  name: string;
+}
+
 export interface TechnologyData {
   /** Identificador único, ej: "T01" */
   id: string;
@@ -129,6 +136,8 @@ export interface TechnologyData {
   impact: string;
   horizon: string;
   tags?: string[];
+  /** Sublíneas estructuradas — usadas en el panel de detalle */
+  sublines?: SublineData[];
 }
 
 export interface ExcludedTechnology {
