@@ -9,10 +9,11 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { HelpCircle, Info, Menu, X } from "lucide-react";
+import { HelpCircle, Info, Menu, Waypoints, X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { HelpModal } from "@/components/molecules/HelpModal";
 import { AboutModal } from "@/components/molecules/AboutModal";
+import { TrayectoriaModal } from "@/components/molecules/TrayectoriaModal";
 import type { HeaderProps } from "@/types/radar-render.types";
 
 /**
@@ -26,6 +27,7 @@ export function Header({ meta, rings }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
+  const [showTrayectoria, setShowTrayectoria] = useState(false);
 
   return (
     <header className="w-full bg-sena-green text-white py-3 px-4 md:px-8 border-b-4 border-sena-blue shadow-sm sticky top-0 z-50 transition-all">
@@ -76,6 +78,14 @@ export function Header({ meta, rings }: HeaderProps) {
           </button>
 
           <button
+            onClick={() => setShowTrayectoria(true)}
+            className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm text-white/90 hover:text-white hover:bg-white/10 transition-colors font-medium"
+          >
+            <Waypoints size={16} />
+            <span>Mapa de Trayectoria Tecnológica</span>
+          </button>
+
+          <button
             onClick={() => setShowAbout(true)}
             className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm text-white/90 hover:text-white hover:bg-white/10 transition-colors font-medium"
           >
@@ -107,6 +117,12 @@ export function Header({ meta, rings }: HeaderProps) {
               <HelpCircle size={18} className="text-white/70" /> Ayuda
             </button>
             <button
+              onClick={() => { setShowTrayectoria(true); setMobileMenuOpen(false); }}
+              className="flex items-center gap-2 w-full px-3 py-2.5 rounded-lg text-sm font-medium text-white/90 hover:bg-white/10 transition-colors"
+            >
+              <Waypoints size={18} className="text-white/70" /> Mapa de Trayectoria Tecnológica
+            </button>
+            <button
               onClick={() => { setShowAbout(true); setMobileMenuOpen(false); }}
               className="flex items-center gap-2 w-full px-3 py-2.5 rounded-lg text-sm font-medium text-white/90 hover:bg-white/10 transition-colors"
             >
@@ -125,6 +141,7 @@ export function Header({ meta, rings }: HeaderProps) {
       {/* Modales */}
       <HelpModal open={showHelp} onOpenChange={setShowHelp} rings={rings} />
       <AboutModal open={showAbout} onOpenChange={setShowAbout} />
+      <TrayectoriaModal open={showTrayectoria} onOpenChange={setShowTrayectoria} />
     </header>
   );
 }

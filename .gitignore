@@ -40,3 +40,6 @@ CLAUDE.md
 
 # JetBrains
 .idea
+
+# Logs
+*.log

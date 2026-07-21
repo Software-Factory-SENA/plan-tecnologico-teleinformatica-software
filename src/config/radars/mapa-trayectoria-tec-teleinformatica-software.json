@@ -1,0 +1,1246 @@
+{
+  "meta": {
+    "title": "Mapa de Trayectoria Tecnológica del área de Teleinformática – Software",
+    "subtitle": "Radar y Mapa de Trayectoria · Teleinformática – Software · CEET · SENA",
+    "horizonteRange": "2026–2036",
+    "description": "Esta visualización proyecta en el tiempo (2026–2036) la evolución de las capacidades del área de Teleinformática – Software del Centro de Electricidad, Electrónica y Telecomunicaciones (CEET). Es un producto del ejercicio de Vigilancia Científico-Tecnológica y de la prospectiva tecnológica del Centro: organiza, por direccionador estratégico y horizonte de adopción, las tecnologías, la infraestructura, el talento, los proyectos de I+D+i y las alianzas que el área requiere para anticipar el cambio tecnológico, cerrar brechas de formación y orientar las decisiones estratégicas hacia una oferta formativa pertinente y a la vanguardia del sector."
+  },
+  "capas": [
+    {
+      "id": "tecnologias",
+      "label": "Tecnologías",
+      "color": "#2563eb"
+    },
+    {
+      "id": "infraestructura",
+      "label": "Infraestructura",
+      "color": "#15803d"
+    },
+    {
+      "id": "talento",
+      "label": "Talento & I+D+i",
+      "color": "#71277a"
+    },
+    {
+      "id": "alianzas",
+      "label": "Alianzas",
+      "color": "#0d9488"
+    }
+  ],
+  "horizontes": [
+    {
+      "id": "ya",
+      "label": "Ya / Ahora",
+      "color": "#14b8a6"
+    },
+    {
+      "id": "h12",
+      "label": "0–12 meses",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "h13",
+      "label": "1–3 años",
+      "color": "#6366f1"
+    },
+    {
+      "id": "h35",
+      "label": "3–5 años",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "h510",
+      "label": "5–10 años",
+      "color": "#a855f7"
+    }
+  ],
+  "madurez": [
+    {
+      "id": "listo",
+      "label": "Listo / Consolidado (TRL ≥8)",
+      "color": "#15803d"
+    },
+    {
+      "id": "adopcion",
+      "label": "En adopción (TRL 6–7)",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "emergente",
+      "label": "Emergente (TRL ≤5)",
+      "color": "#dc2626"
+    }
+  ],
+  "direccionadores": [
+    {
+      "code": "D1",
+      "name": "Aceleración de la Inteligencia Artificial (Superciclo IA)",
+      "area": "Inteligencia Artificial y Aprendizaje Automático (L01–L05)",
+      "items": [
+        {
+          "capa": "tecnologias",
+          "horizonte": "ya",
+          "title": "Aprendizaje Automático Aplicado (ML/DL) y AutoML",
+          "trl": "8–9",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "IA Generativa y Modelos Fundacionales — GenAI/SLMs",
+          "trl": "8–9",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "IA Agéntica y Sistemas Multi-Agente — MCP",
+          "trl": "6–7",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "IA Explicable, Responsable y Confiable — XAI",
+          "trl": "6–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Aprendizaje Federado y Privacy-Preserving ML",
+          "trl": "6–7",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "infraestructura",
+          "horizonte": "h12",
+          "title": "Laboratorio de IA y Ciencia de Datos: servidores GPU para SLMs locales y estación MLOps",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "ya",
+          "title": "Formación complementaria (virtual/presencial): IA Generativa y prompt engineering — respuesta rápida sin registro calificado",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h12",
+          "title": "Actualización de guías de aprendizaje y proyectos formativos de ADSO con GenAI/RAG (margen del centro, sin trámite de diseño curricular)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Mesa Sectorial de Teleinformática: actualización/creación de NCL en IA + convenios de formación dual con gremios",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h35",
+          "title": "ADSO renovado: módulos de IA Generativa, RAG y desarrollo AI-Native (sujeto a NCL vigente + registro calificado MEN)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "ya",
+          "title": "Formación de formadores: certificación en IA y MLOps",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Proyecto GICS–SENNOVA: orquestación multi-agente (MCP + SLMs locales, ISO/IEC 42001)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Microsoft",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h12",
+          "title": "Fedesoft / CCIT / Cluster de Software y TI (CCB) — pertinencia, NCL y formación dual",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "U. Nacional (GIDIA)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "NVIDIA (Deep Learning Institute)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "U. de los Andes (CINFONIA)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Google Cloud",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "MinTIC (CONPES 4144 — Política Nacional de IA)",
+          "trl": null,
+          "madurez": null
+        }
+      ]
+    },
+    {
+      "code": "D2",
+      "name": "Dato como Infraestructura Estratégica",
+      "area": "Ingeniería de Datos y Analítica Avanzada (L06–L10)",
+      "items": [
+        {
+          "capa": "tecnologias",
+          "horizonte": "ya",
+          "title": "Arquitecturas de Datos Modernas — Lakehouse y Data Mesh",
+          "trl": "8–9",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "MLOps / DataOps y Feature Stores",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "DataGovOps — Observabilidad y Gobernanza de Datos",
+          "trl": "6–7",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h35",
+          "title": "Analítica Aumentada e Inteligencia Decisional",
+          "trl": "6–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Datos Sintéticos y Bases Vectoriales",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "infraestructura",
+          "horizonte": "h13",
+          "title": "Plataforma Data Lakehouse institucional (Apache Iceberg/Delta) con bases vectoriales (Qdrant/pgvector)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "ya",
+          "title": "Formación complementaria (virtual): MLOps y fundamentos de ingeniería de datos",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h12",
+          "title": "Actualización de guías de aprendizaje de la Especialización en Gestión y Seguridad de BD (Lakehouse/Spark dentro del programa vigente)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Mesa Sectorial de Teleinformática: NCL en ingeniería de datos + formación dual con gremios",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h35",
+          "title": "Especialización Tecnológica en Gestión y Seguridad de BD renovada hacia ingeniería de datos moderna (sujeta a NCL + registro calificado MEN)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Proyecto GICS–SENNOVA: Lakehouse descentralizado (Data Mesh) para inteligencia decisional del aprendiz",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "AWS (Academy)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h12",
+          "title": "Fedesoft / CCIT / Cluster de Software y TI (CCB) — pertinencia, NCL y formación dual",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "Databricks (University Alliance) / Snowflake",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Google Cloud",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "DAMA Capítulo Colombia",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Oracle (Academy)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "Alianza CAOBA (centro de excelencia en analítica de datos, MinTIC)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "IBM (SkillsBuild)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "U. del Valle (GUIA)",
+          "trl": null,
+          "madurez": null
+        }
+      ]
+    },
+    {
+      "code": "D3",
+      "name": "Ingeniería de Software Aumentada por IA",
+      "area": "Desarrollo y Operación de Software con IA (L11–L15)",
+      "items": [
+        {
+          "capa": "tecnologias",
+          "horizonte": "ya",
+          "title": "Arquitecturas Cloud-Native y Serverless",
+          "trl": "8–9",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Desarrollo AI-Native y Generación de Código — Vibe Coding",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "ya",
+          "title": "Platform Engineering e Internal Developer Platforms — IDP",
+          "trl": "8",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "AIOps, Observabilidad y FinOps",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Automatización de Testing con IA — AI QA",
+          "trl": "6–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "infraestructura",
+          "horizonte": "h13",
+          "title": "Plataforma Interna de Desarrollo (IDP) con Backstage (CNCF) e Infraestructura como Código (OpenTofu/Crossplane)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "ya",
+          "title": "Formación complementaria (virtual): Cloud-Native y asistentes de código con IA",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h12",
+          "title": "Actualización de guías de aprendizaje del Técnico en Programación (asistentes IA, nube) y de ADSO (DevSecOps, contenedores) dentro de programas vigentes",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Mesa Sectorial de Teleinformática: NCL en desarrollo AI-Native y DevSecOps + formación dual con empresas de software",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h35",
+          "title": "Técnico en Programación y ADSO renovados (sujeto a NCL + registro calificado MEN)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Proyecto GICS–SENNOVA: IDP AI-Native con métricas DORA y SPACE",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "GitHub (Education)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "CNCF / DORA Community",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Microsoft",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "Globant — AI Studio Bogotá",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Huawei ICT Academy",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h12",
+          "title": "Fedesoft / CCIT / Cluster de Software y TI (CCB) — pertinencia, NCL y formación dual",
+          "trl": null,
+          "madurez": null
+        }
+      ]
+    },
+    {
+      "code": "D4",
+      "name": "Convergencia Ciberfísica y Aumento Humano",
+      "area": "Interfaces Inmersivas y Sistemas Ciberfísicos (L16–L20)",
+      "items": [
+        {
+          "capa": "tecnologias",
+          "horizonte": "ya",
+          "title": "Gemelos Digitales y Simulación",
+          "trl": "8–9",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Robótica Colaborativa y Drones-as-a-Service",
+          "trl": "7–9",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h35",
+          "title": "Computación Espacial y Realidad Extendida — XR",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h510",
+          "title": "IA Física y Robótica Humanoide",
+          "trl": "5–6",
+          "madurez": "emergente"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h510",
+          "title": "Interfaces Cerebro-Computador (BCI) y Neurotecnología",
+          "trl": "4–6",
+          "madurez": "emergente"
+        },
+        {
+          "capa": "infraestructura",
+          "horizonte": "h13",
+          "title": "Entorno de gemelo digital en tiempo real (NVIDIA Omniverse, OpenUSD) para aulas inmersivas y laboratorios remotos",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "ya",
+          "title": "Formación complementaria: robótica colaborativa, gemelos digitales y simulación",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h12",
+          "title": "Actualización de guías de aprendizaje en programas vigentes de electrónica y automatización",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Proyecto GICS–SENNOVA: gemelo digital de los laboratorios del CEET con operación y mantenimiento remotos desde HMD",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Mesa Sectorial: NCL en robótica y automatización 4.0 + formación dual con industria",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h35",
+          "title": "Programas titulados en automatización y robótica renovados (sujeto a NCL + registro calificado MEN)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "NVIDIA (Omniverse Academic)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h12",
+          "title": "Universal Robots (Academy)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h35",
+          "title": "Epic Games (Unreal Academic)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Festo Didactic (convenio SENA)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h12",
+          "title": "ANDI — articulación con industria 4.0 (pertinencia, NCL y formación dual)",
+          "trl": null,
+          "madurez": null
+        }
+      ]
+    },
+    {
+      "code": "D5",
+      "name": "Confianza Digital, Soberanía y Gobernanza",
+      "area": "Ciberseguridad, Gobernanza y Soberanía Digital (L21–L25)",
+      "items": [
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Zero Trust y Ciberseguridad Preventiva con IA",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Criptografía Post-Cuántica (PQC) y Crypto-Agility",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Gobernanza de IA — EU AI Act / ISO/IEC 42001",
+          "trl": "6–7",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Computación Confidencial y Privacidad",
+          "trl": "6–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Soberanía Digital y Seguridad de Sistemas Agénticos",
+          "trl": "5–7",
+          "madurez": "emergente"
+        },
+        {
+          "capa": "infraestructura",
+          "horizonte": "h13",
+          "title": "SOC académico de formación (AI SecOps) bajo Zero Trust (NIST SP 800-207), con migración híbrida a PQC (ML-KEM / ML-DSA)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "ya",
+          "title": "Formación complementaria (virtual): ciberseguridad y gobernanza de IA (EU AI Act)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h12",
+          "title": "Actualización de guías de aprendizaje con Zero Trust y gobernanza de IA en programas vigentes",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Mesa Sectorial de Teleinformática: NCL en ciberseguridad + formación dual usando el SOC académico como ambiente de aprendizaje",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h35",
+          "title": "Nuevo Tecnólogo / Especialización Tecnológica en Ciberseguridad — Zero Trust, IA preventiva, PQC (sujeto a NCL + registro calificado MEN)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Cisco Networking Academy (CyberOps)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "MinTIC / CCOC",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "IBM Security",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "U. de los Andes (CINFONIA — ética de IA)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Huawei",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h12",
+          "title": "Fedesoft / CCIT / Cluster de Software y TI (CCB) — pertinencia, NCL y formación dual",
+          "trl": null,
+          "madurez": null
+        }
+      ]
+    },
+    {
+      "code": "D6",
+      "name": "Experiencias Inmersivas y Espaciales",
+      "area": "Realidad Extendida (XR) y Metaversos (14 sublíneas VT)",
+      "items": [
+        {
+          "capa": "tecnologias",
+          "horizonte": "ya",
+          "title": "Motores 3D en tiempo real y pipelines de virtual production",
+          "trl": "8–9",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Motion/face/eye tracking markerless y analytics XR",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Producción volumétrica y video 3D con passthrough MR",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h35",
+          "title": "Identidad digital, activos tokenizados y credenciales verificables",
+          "trl": "6–7",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "ya",
+          "title": "HMDs MR/VR/AR y eyewear ligero",
+          "trl": "8–9",
+          "madurez": "listo"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Herramientas no-code / low-code para experiencias XR",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Mapeo espacial y anclajes persistentes en dispositivos de consumo",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h35",
+          "title": "Periféricos hápticos y controllers avanzados",
+          "trl": "6–7",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h12",
+          "title": "Captura volumétrica y fotogrametría a escala — NeRF / 3D Gaussian Splatting",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Interacción háptica ligera y spatial UX",
+          "trl": "6–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h35",
+          "title": "Marcos de interoperabilidad y estrategias nacionales de metaverso",
+          "trl": "5–7",
+          "madurez": "emergente"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Plataformas sociales inmersivas, espacios de marca y eventos persistentes",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Gemelos digitales para media venues y producción audiovisual",
+          "trl": "7–8",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "tecnologias",
+          "horizonte": "h13",
+          "title": "Estándares y accesibilidad de contenidos XR — WCAG 2.2 / EU AI Act",
+          "trl": "6–7",
+          "madurez": "adopcion"
+        },
+        {
+          "capa": "infraestructura",
+          "horizonte": "h13",
+          "title": "Laboratorio de Producción Virtual (XR): captura volumétrica, HMDs y licencias Unreal Engine",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "infraestructura",
+          "horizonte": "h35",
+          "title": "Set de producción virtual (Volume LED) con camera tracking y flujos OpenUSD / SMPTE ST 2110 (inversión faseada)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "ya",
+          "title": "Formación complementaria: 3D en tiempo real, XR no-code e IA generativa de video",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h12",
+          "title": "Actualización de guías de aprendizaje de los Técnicos en Audiovisuales e Integración de Contenidos Digitales (programas vigentes)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Mesa Sectorial de industrias creativas: NCL en producción virtual/XR + formación dual con productoras y estudios",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h35",
+          "title": "Técnicos renovados y Tecnólogo en Producción de Multimedia con énfasis XR (sujeto a NCL + registro calificado MEN)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "talento",
+          "horizonte": "h13",
+          "title": "Proyectos GICS–SENNOVA C1–C6: volumétrica, spatial UX, WebXR, VPS y mocap ético",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Epic Games (Unreal Academic)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h12",
+          "title": "Cluster de Industrias Creativas y de Contenido (CCB) — pertinencia, NCL y formación dual",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "Meta (Immersive Learning)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h35",
+          "title": "Ultraleap (háptica)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "ya",
+          "title": "Adobe",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "Niantic Spatial (8th Wall)",
+          "trl": null,
+          "madurez": null
+        },
+        {
+          "capa": "alianzas",
+          "horizonte": "h13",
+          "title": "NVIDIA (Omniverse)",
+          "trl": null,
+          "madurez": null
+        }
+      ]
+    }
+  ],
+  "notas": [
+    "Convención horizonte VT → columna: actual → Ya/Ahora · actual–corto → Ya/Ahora (si TRL 8–9) o 0–12 meses · corto (≤2 años) → 0–12 meses · corto–mediano (≤5 años) → 1–3 años · mediano (2–5 años) → 3–5 años · mediano–largo / largo (>5 años) → 5–10 años.",
+    "Capa Talento & I+D+i — escalonamiento por trámite institucional: formación complementaria y actualización de guías de aprendizaje (≤1 año, sin registro calificado) → gestión de NCL en Mesa Sectorial y formación dual con gremios (1–3 años) → programas titulados nuevos o renovados con registro calificado MEN (3–5 años)."
+  ],
+  "glosario": [
+    {
+      "sigla": "ADSO",
+      "definicion": "Tecnólogo en Análisis y Desarrollo de Software (programa de formación SENA)"
+    },
+    {
+      "sigla": "AI QA",
+      "definicion": "Artificial Intelligence Quality Assurance (aseguramiento de calidad de software con IA)"
+    },
+    {
+      "sigla": "AI SecOps",
+      "definicion": "Artificial Intelligence Security Operations (operaciones de seguridad potenciadas con IA)"
+    },
+    {
+      "sigla": "AIOps",
+      "definicion": "Artificial Intelligence for IT Operations (operaciones de TI potenciadas con IA)"
+    },
+    {
+      "sigla": "ANDI",
+      "definicion": "Asociación Nacional de Empresarios de Colombia (gremio de la industria)"
+    },
+    {
+      "sigla": "AR",
+      "definicion": "Augmented Reality (realidad aumentada)"
+    },
+    {
+      "sigla": "AutoML",
+      "definicion": "Automated Machine Learning (aprendizaje automático automatizado)"
+    },
+    {
+      "sigla": "AWS",
+      "definicion": "Amazon Web Services (programa académico AWS Academy)"
+    },
+    {
+      "sigla": "BCI",
+      "definicion": "Brain-Computer Interface (interfaz cerebro-computador)"
+    },
+    {
+      "sigla": "BD",
+      "definicion": "Bases de Datos"
+    },
+    {
+      "sigla": "C1–C6",
+      "definicion": "Códigos de los proyectos de investigación GICS en contenidos digitales"
+    },
+    {
+      "sigla": "CAOBA",
+      "definicion": "Centro de Excelencia y Apropiación en Big Data y Data Analytics (alianza académico-industrial liderada por MinTIC)"
+    },
+    {
+      "sigla": "CCB",
+      "definicion": "Cámara de Comercio de Bogotá (iniciativas clúster: Software y TI; Industrias Creativas y de Contenido)"
+    },
+    {
+      "sigla": "CCIT",
+      "definicion": "Cámara Colombiana de Informática y Telecomunicaciones (gremio TIC)"
+    },
+    {
+      "sigla": "CCOC",
+      "definicion": "Comando Conjunto Cibernético (Fuerzas Militares de Colombia)"
+    },
+    {
+      "sigla": "CEET",
+      "definicion": "Centro de Electricidad, Electrónica y Telecomunicaciones (SENA, Regional Distrito Capital)"
+    },
+    {
+      "sigla": "CINFONIA",
+      "definicion": "Centro de Investigación en Inteligencia Artificial de la Universidad de los Andes"
+    },
+    {
+      "sigla": "CNCF",
+      "definicion": "Cloud Native Computing Foundation (fundación de cómputo nativo en la nube)"
+    },
+    {
+      "sigla": "CONPES",
+      "definicion": "Consejo Nacional de Política Económica y Social (documento CONPES 4144: Política Nacional de IA, Colombia)"
+    },
+    {
+      "sigla": "DAMA",
+      "definicion": "Data Management Association (asociación internacional de gestión de datos, Capítulo Colombia)"
+    },
+    {
+      "sigla": "DataGovOps",
+      "definicion": "Data Governance Operations (observabilidad y gobernanza de datos operacionalizada)"
+    },
+    {
+      "sigla": "DataOps",
+      "definicion": "Data Operations (operacionalización y automatización de flujos de datos)"
+    },
+    {
+      "sigla": "DevSecOps",
+      "definicion": "Development, Security & Operations (integración de desarrollo, seguridad y operaciones)"
+    },
+    {
+      "sigla": "DORA",
+      "definicion": "DevOps Research and Assessment (métricas de rendimiento de entrega de software)"
+    },
+    {
+      "sigla": "EU AI Act",
+      "definicion": "Reglamento (UE) 2024/1689 de Inteligencia Artificial de la Unión Europea"
+    },
+    {
+      "sigla": "Fedesoft",
+      "definicion": "Federación Colombiana de la Industria de Software y Tecnologías Informáticas (gremio del sector software)"
+    },
+    {
+      "sigla": "FinOps",
+      "definicion": "Financial Operations (gestión financiera del gasto en la nube)"
+    },
+    {
+      "sigla": "GenAI",
+      "definicion": "Generative Artificial Intelligence (inteligencia artificial generativa)"
+    },
+    {
+      "sigla": "GICS",
+      "definicion": "Grupo de Investigación del CEET, adscrito a SENNOVA"
+    },
+    {
+      "sigla": "GIDIA",
+      "definicion": "Grupo de Investigación y Desarrollo en Inteligencia Artificial (Universidad Nacional de Colombia)"
+    },
+    {
+      "sigla": "GPU",
+      "definicion": "Graphics Processing Unit (unidad de procesamiento gráfico)"
+    },
+    {
+      "sigla": "GUIA",
+      "definicion": "Grupo de investigación en inteligencia artificial de la Universidad del Valle"
+    },
+    {
+      "sigla": "HMD",
+      "definicion": "Head-Mounted Display (visor inmersivo montado en la cabeza)"
+    },
+    {
+      "sigla": "I+D+i",
+      "definicion": "Investigación, Desarrollo e innovación"
+    },
+    {
+      "sigla": "IA",
+      "definicion": "Inteligencia Artificial"
+    },
+    {
+      "sigla": "IBM",
+      "definicion": "International Business Machines (programa educativo IBM SkillsBuild)"
+    },
+    {
+      "sigla": "IDP",
+      "definicion": "Internal Developer Platform (plataforma interna de desarrollo)"
+    },
+    {
+      "sigla": "ISO/IEC 42001",
+      "definicion": "Norma internacional de sistemas de gestión de inteligencia artificial"
+    },
+    {
+      "sigla": "L01–L05",
+      "definicion": "Códigos de las líneas tecnológicas del mapa de trayectoria de la VT de Teleinformática"
+    },
+    {
+      "sigla": "L06–L10",
+      "definicion": "Códigos de las líneas tecnológicas del mapa de trayectoria de la VT de Teleinformática"
+    },
+    {
+      "sigla": "L11–L15",
+      "definicion": "Códigos de las líneas tecnológicas del mapa de trayectoria de la VT de Teleinformática"
+    },
+    {
+      "sigla": "L16–L20",
+      "definicion": "Códigos de las líneas tecnológicas del mapa de trayectoria de la VT de Teleinformática"
+    },
+    {
+      "sigla": "L21–L25",
+      "definicion": "Códigos de las líneas tecnológicas del mapa de trayectoria de la VT de Teleinformática"
+    },
+    {
+      "sigla": "LED",
+      "definicion": "Light-Emitting Diode (pantallas de diodos emisores de luz para producción virtual)"
+    },
+    {
+      "sigla": "MCP",
+      "definicion": "Model Context Protocol (protocolo de interoperabilidad para agentes de IA)"
+    },
+    {
+      "sigla": "MEN",
+      "definicion": "Ministerio de Educación Nacional — otorga el registro calificado requerido por programas de nivel tecnólogo y especialización tecnológica"
+    },
+    {
+      "sigla": "MinTIC",
+      "definicion": "Ministerio de Tecnologías de la Información y las Comunicaciones (Colombia)"
+    },
+    {
+      "sigla": "ML-KEM / ML-DSA",
+      "definicion": "Module-Lattice Key Encapsulation Mechanism / Digital Signature Algorithm (estándares post-cuánticos NIST FIPS 203 y 204)"
+    },
+    {
+      "sigla": "ML/DL",
+      "definicion": "Machine Learning / Deep Learning (aprendizaje automático / aprendizaje profundo)"
+    },
+    {
+      "sigla": "MLOps",
+      "definicion": "Machine Learning Operations (operacionalización del ciclo de vida de modelos de ML)"
+    },
+    {
+      "sigla": "mocap",
+      "definicion": "Motion Capture (captura de movimiento)"
+    },
+    {
+      "sigla": "MR",
+      "definicion": "Mixed Reality (realidad mixta; passthrough: video del entorno real dentro del visor)"
+    },
+    {
+      "sigla": "NCL",
+      "definicion": "Norma de Competencia Laboral — referente obligatorio del diseño curricular SENA; se crea o actualiza en las Mesas Sectoriales"
+    },
+    {
+      "sigla": "NeRF",
+      "definicion": "Neural Radiance Fields (campos de radiancia neuronal; junto a 3D Gaussian Splatting, técnicas de reconstrucción 3D)"
+    },
+    {
+      "sigla": "NIST SP 800-207",
+      "definicion": "Publicación especial del National Institute of Standards and Technology (EE. UU.) sobre arquitectura Zero Trust"
+    },
+    {
+      "sigla": "OpenUSD",
+      "definicion": "Open Universal Scene Description (estándar abierto de descripción de escenas 3D)"
+    },
+    {
+      "sigla": "PQC",
+      "definicion": "Post-Quantum Cryptography (criptografía post-cuántica)"
+    },
+    {
+      "sigla": "RAG",
+      "definicion": "Retrieval-Augmented Generation (generación aumentada por recuperación de información)"
+    },
+    {
+      "sigla": "SENA",
+      "definicion": "Servicio Nacional de Aprendizaje (Colombia)"
+    },
+    {
+      "sigla": "SENNOVA",
+      "definicion": "Sistema de Investigación, Desarrollo Tecnológico e Innovación del SENA"
+    },
+    {
+      "sigla": "SLM",
+      "definicion": "Small Language Model (modelo de lenguaje pequeño, ejecutable en infraestructura local)"
+    },
+    {
+      "sigla": "SMPTE ST 2110",
+      "definicion": "Estándar de la Society of Motion Picture and Television Engineers para transporte de video profesional sobre IP"
+    },
+    {
+      "sigla": "SOC",
+      "definicion": "Security Operations Center (centro de operaciones de seguridad)"
+    },
+    {
+      "sigla": "SPACE",
+      "definicion": "Marco de productividad de desarrolladores: Satisfaction, Performance, Activity, Communication, Efficiency"
+    },
+    {
+      "sigla": "TI",
+      "definicion": "Tecnologías de la Información"
+    },
+    {
+      "sigla": "TRL",
+      "definicion": "Technology Readiness Level (nivel de madurez tecnológica, ISO 16290:2013)"
+    },
+    {
+      "sigla": "UX",
+      "definicion": "User Experience (experiencia de usuario; spatial UX: experiencia de usuario espacial)"
+    },
+    {
+      "sigla": "VPS",
+      "definicion": "Visual Positioning System (sistema de posicionamiento visual)"
+    },
+    {
+      "sigla": "VR",
+      "definicion": "Virtual Reality (realidad virtual)"
+    },
+    {
+      "sigla": "VT",
+      "definicion": "Vigilancia Tecnológica (ejercicio VCyT CEET-GICS 2025)"
+    },
+    {
+      "sigla": "WCAG",
+      "definicion": "Web Content Accessibility Guidelines (pautas de accesibilidad de contenidos, versión 2.2)"
+    },
+    {
+      "sigla": "WebXR",
+      "definicion": "API estándar del W3C para experiencias de realidad extendida en navegadores web"
+    },
+    {
+      "sigla": "XAI",
+      "definicion": "Explainable Artificial Intelligence (IA explicable, responsable y confiable)"
+    },
+    {
+      "sigla": "XR",
+      "definicion": "Extended Reality (realidad extendida: virtual, aumentada y mixta)"
+    }
+  ],
+  "fuentes": [
+    {
+      "text": "Vigilancia Científico-Tecnológica de Teleinformática, CEET-GICS V.8.5.0 (2025). Mapa de trayectoria tecnológica 2026–2036.",
+      "url": ""
+    },
+    {
+      "text": "de Weck, O. L. (2022). Technology roadmapping and development: A quantitative approach to the management of technology. Springer. ISBN 978-3-030-88345-4.",
+      "url": "https://doi.org/10.1007/978-3-030-88346-1"
+    },
+    {
+      "text": "Nimmo, G. (2013). Technology roadmapping on the industry level: Experiences from Canada. En M. G. Moehrle, R. Isenmann & R. Phaal (Eds.), Technology roadmapping for strategy and innovation: Charting the route to success (pp. 47–65). Springer.",
+      "url": "https://doi.org/10.1007/978-3-642-33923-3_4"
+    }
+  ]
+}

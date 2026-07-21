@@ -56,7 +56,6 @@ export function HelpModal({ open, onOpenChange, rings }: HelpModalProps) {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent
         className="fixed inset-0 top-0 left-0 translate-x-0 translate-y-0 w-full h-[100dvh] max-w-none border-none rounded-none sm:bottom-auto sm:top-[50%] sm:left-[50%] sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-full sm:max-w-lg sm:h-auto sm:max-h-[85vh] sm:border-solid sm:border sm:rounded-lg flex flex-col p-0 gap-0 overflow-hidden z-50"
-        aria-describedby="help-modal-description"
       >
         {/* Header */}
         <DialogHeader className="px-5 py-4 border-b bg-muted/20 flex-none m-0">
@@ -64,10 +63,7 @@ export function HelpModal({ open, onOpenChange, rings }: HelpModalProps) {
             <HelpCircle className="w-6 h-6 text-sena-green" />
             Guía de Referencia
           </DialogTitle>
-          <DialogDescription
-            id="help-modal-description"
-            className="text-sena-gray-dark/80 mt-1"
-          >
+          <DialogDescription className="text-sena-gray-dark/80 mt-1">
             Conceptos clave del Radar Tecnológico de Telecomunicaciones
           </DialogDescription>
         </DialogHeader>
